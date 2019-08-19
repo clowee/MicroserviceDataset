@@ -2,13 +2,25 @@
 Microservice Dependency Graph Dataset
 
 
-
-
-| Project name  | Github URL | Dependency Graph 
-| ------------- | ------------- | ------------- |
-| FTGO example application | [link](https://github.com/microservices-patterns/ftgo-application) | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ftgo-application-master.png" download="ftgo-application-master.svg">View</a> |
-| E-Commerce App | [link](https://github.com/venkataravuri/e-commerce-microservices-sample) | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ecommerce-microservices.png" download="ecommerce-microservices.svg">View</a> |
-| Spring PetClinic Application | [link](https://github.com/spring-petclinic/spring-petclinic-microservices) | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/Spring-petclinic.png" download="Spring-petclinic.svg">View</a> |
-| QBike | [link](https://github.com/JoeCao/qbike) | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/qbike.png" target="_blank">View</a> |
-| Microservice Book Consul Sample | [link](https://github.com/ewolff/microservice-consul) | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/consul-master.png" download="consul-master.png">View</a> |
-| Microservices Book | [link](https://github.com/ewolff/microservice) | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/microservice_sample.png" download="microservice_sample.png">View</a> |
+| Project Name                                     | Github URL                   | Number of microservices | Dependency Graph |
+|------------------------------------------|-----------------------|-------------------------| -------------------------|
+| Consul demo                              | http://bit.ly/2OKY29v | 9                       | <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ftgo-application-master.png" download="ftgo-application-master.svg">View</a> |
+| CQRS microservice application            | http://bit.ly/2yLqTPW | 7                       |  |
+| E-Commerce App                           | http://bit.ly/2KsGzx6 | 5                       |  |
+| EnterprisePlanner                        | http://bit.ly/2ZPK7je | 5                       |  |
+| eShopOnContainers                        | http://bit.ly/2YGSkJB | 25                      |  |
+| FTGO - Restaurant Management             | http://bit.ly/2M7f8fm | 13                      |  |
+| Lakeside Mutual Insurance Company        | http://bit.ly/33iJSiU | 8                       |  |
+| Lelylan - Open Source Internet of Things | http://bit.ly/2TeSbI2 | 6                       |  |
+| Microservice Architecture for blog post  | http://bit.ly/2YOUJxJ | 9                       |  |
+| Microservices book                       | http://bit.ly/2Td7NLY | 13                      |  |
+| Open-loyalty                             | http://bit.ly/2ZFbHQm | 12                      |  |
+| Pitstop - Garage Management System       | http://bit.ly/2YMJgmb | 9                       |  |
+| Robot Shop                               | http://bit.ly/2GS2ywt | 10                      |  |
+| Share bike (Chinese)                     | http://bit.ly/2YMVbAC | 8                       |  |
+| Spinnaker                                | http://bit.ly/2yIjXmC | 5                       |  |
+| Spring Cloud Microservice Example        | http://bit.ly/31i5aLM | 8                       |  |
+| Spring PetClinic                         | http://bit.ly/2TdDfd3 | 14                      |  |
+| spring-cloud-netflix-example             | http://bit.ly/2YQA2S7 | 10                      |  |
+| Tap-And-Eat (Spring Cloud)               | http://bit.ly/2ZApXtA | 5                       |  |
+| Vehicle tracking                         | http://bit.ly/2YtbtiF | 7                       |  |
