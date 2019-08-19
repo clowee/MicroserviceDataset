@@ -1,0 +1,103 @@
+<svg width="685px" height="155px"
+ viewBox="0.00 0.00 514.04 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 112)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-112 510.0387,-112 510.0387,4 -4,4"/>
+<!-- gateway -->
+<g id="node1" class="node">
+<title>gateway</title>
+<ellipse fill="none" stroke="#000000" cx="43.2086" cy="-90" rx="43.4183" ry="18"/>
+<text text-anchor="middle" x="43.2086" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">gateway</text>
+</g>
+<!-- discovery -->
+<g id="node2" class="node">
+<title>discovery</title>
+<ellipse fill="none" stroke="#000000" cx="90.2086" cy="-18" rx="48.6559" ry="18"/>
+<text text-anchor="middle" x="90.2086" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">discovery</text>
+</g>
+<!-- gateway&#45;&gt;discovery -->
+<g id="edge1" class="edge">
+<title>gateway&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M54.586,-72.5708C60.1447,-64.0553 66.9496,-53.6308 73.117,-44.183"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="76.2377,-45.8052 78.7731,-35.5182 70.376,-41.9789 76.2377,-45.8052"/>
+</g>
+<!-- config -->
+<g id="node3" class="node">
+<title>config</title>
+<ellipse fill="none" stroke="#000000" cx="192.2086" cy="-18" rx="35.9154" ry="18"/>
+<text text-anchor="middle" x="192.2086" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">config</text>
+</g>
+<!-- gateway&#45;&gt;config -->
+<g id="edge2" class="edge">
+<title>gateway&#45;&gt;config</title>
+<path fill="none" stroke="#0000ff" d="M71.5851,-76.2879C95.95,-64.5142 131.1661,-47.497 157.2627,-34.8866"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="158.9465,-37.9603 166.4276,-30.458 155.9008,-31.6575 158.9465,-37.9603"/>
+</g>
+<!-- product_command_side -->
+<g id="node4" class="node">
+<title>product_command_side</title>
+<ellipse fill="none" stroke="#000000" cx="402.2086" cy="-90" rx="103.6605" ry="18"/>
+<text text-anchor="middle" x="402.2086" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">product_command_side</text>
+</g>
+<!-- product_command_side&#45;&gt;discovery -->
+<g id="edge3" class="edge">
+<title>product_command_side&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M331.1483,-76.875C279.7524,-66.9158 208.8052,-52.2068 147.2086,-36 143.6364,-35.0601 139.9557,-34.0336 136.2656,-32.9628"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="137.1279,-29.5675 126.5443,-30.0536 135.121,-36.2737 137.1279,-29.5675"/>
+</g>
+<!-- product_command_side&#45;&gt;config -->
+<g id="edge6" class="edge">
+<title>product_command_side&#45;&gt;config</title>
+<path fill="none" stroke="#0000ff" d="M351.3702,-74.2916C318.5993,-63.9373 275.1709,-49.7884 237.2086,-36 234.7,-35.0889 232.1223,-34.1272 229.531,-33.1414"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="230.7763,-29.8704 220.1874,-29.5141 228.2429,-36.3959 230.7763,-29.8704"/>
+</g>
+<!-- mongodb -->
+<g id="node5" class="node">
+<title>mongodb</title>
+<ellipse fill="none" stroke="#000000" cx="403.2086" cy="-18" rx="47.539" ry="18"/>
+<text text-anchor="middle" x="403.2086" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">mongodb</text>
+</g>
+<!-- product_command_side&#45;&gt;mongodb -->
+<g id="edge4" class="edge">
+<title>product_command_side&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M402.461,-71.8314C402.5679,-64.131 402.6951,-54.9743 402.8139,-46.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="406.3136,-46.4609 402.9529,-36.4133 399.3142,-46.3637 406.3136,-46.4609"/>
+</g>
+<!-- rabbitmq -->
+<g id="node6" class="node">
+<title>rabbitmq</title>
+<ellipse fill="none" stroke="#000000" cx="292.2086" cy="-18" rx="45.806" ry="18"/>
+<text text-anchor="middle" x="292.2086" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">rabbitmq</text>
+</g>
+<!-- product_command_side&#45;&gt;rabbitmq -->
+<g id="edge5" class="edge">
+<title>product_command_side&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M375.5807,-72.5708C360.2372,-62.5278 340.8369,-49.8294 324.6122,-39.2096"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="326.255,-36.1018 315.9712,-33.5537 322.4214,-41.9588 326.255,-36.1018"/>
+</g>
+<!-- product_query_side -->
+<g id="node7" class="node">
+<title>product_query_side</title>
+<ellipse fill="none" stroke="#000000" cx="192.2086" cy="-90" rx="87.9684" ry="18"/>
+<text text-anchor="middle" x="192.2086" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">product_query_side</text>
+</g>
+<!-- product_query_side&#45;&gt;discovery -->
+<g id="edge7" class="edge">
+<title>product_query_side&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M167.5173,-72.5708C153.6185,-62.7599 136.13,-50.4151 121.3035,-39.9494"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="123.117,-36.9453 112.9289,-34.0378 119.0802,-42.6641 123.117,-36.9453"/>
+</g>
+<!-- product_query_side&#45;&gt;config -->
+<g id="edge9" class="edge">
+<title>product_query_side&#45;&gt;config</title>
+<path fill="none" stroke="#0000ff" d="M192.2086,-71.8314C192.2086,-64.131 192.2086,-54.9743 192.2086,-46.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="195.7087,-46.4132 192.2086,-36.4133 188.7087,-46.4133 195.7087,-46.4132"/>
+</g>
+<!-- product_query_side&#45;&gt;rabbitmq -->
+<g id="edge8" class="edge">
+<title>product_query_side&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M216.4158,-72.5708C230.042,-62.7599 247.1877,-50.4151 261.7234,-39.9494"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="263.8636,-42.7213 269.9339,-34.0378 259.7734,-37.0405 263.8636,-42.7213"/>
+</g>
+</g>
+</svg>

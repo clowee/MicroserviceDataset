@@ -1,0 +1,61 @@
+<svg width="278px" height="251px"
+ viewBox="0.00 0.00 208.20 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 184)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 204.2027,-184 204.2027,4 -4,4"/>
+<!-- php -->
+<g id="node1" class="node">
+<title>php</title>
+<ellipse fill="none" stroke="#000000" cx="101.2027" cy="-90" rx="27" ry="18"/>
+<text text-anchor="middle" x="101.2027" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">php</text>
+</g>
+<!-- mail -->
+<g id="node2" class="node">
+<title>mail</title>
+<ellipse fill="none" stroke="#000000" cx="28.2027" cy="-18" rx="28.4069" ry="18"/>
+<text text-anchor="middle" x="28.2027" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">mail</text>
+</g>
+<!-- php&#45;&gt;mail -->
+<g id="edge1" class="edge">
+<title>php&#45;&gt;mail</title>
+<path fill="none" stroke="#0000ff" d="M86.077,-75.0816C75.8682,-65.0125 62.2149,-51.5463 50.7334,-40.2221"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="53.1376,-37.6773 43.5601,-33.147 48.2221,-42.6611 53.1376,-37.6773"/>
+</g>
+<!-- elk -->
+<g id="node3" class="node">
+<title>elk</title>
+<ellipse fill="none" stroke="#000000" cx="101.2027" cy="-18" rx="27" ry="18"/>
+<text text-anchor="middle" x="101.2027" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">elk</text>
+</g>
+<!-- php&#45;&gt;elk -->
+<g id="edge2" class="edge">
+<title>php&#45;&gt;elk</title>
+<path fill="none" stroke="#0000ff" d="M101.2027,-71.8314C101.2027,-64.131 101.2027,-54.9743 101.2027,-46.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="104.7028,-46.4132 101.2027,-36.4133 97.7028,-46.4133 104.7028,-46.4132"/>
+</g>
+<!-- db -->
+<g id="node4" class="node">
+<title>db</title>
+<ellipse fill="none" stroke="#000000" cx="173.2027" cy="-18" rx="27" ry="18"/>
+<text text-anchor="middle" x="173.2027" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">db</text>
+</g>
+<!-- php&#45;&gt;db -->
+<g id="edge3" class="edge">
+<title>php&#45;&gt;db</title>
+<path fill="none" stroke="#0000ff" d="M116.472,-74.7307C126.3997,-64.803 139.518,-51.6847 150.639,-40.5637"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="153.3591,-42.7933 157.9554,-33.2473 148.4094,-37.8436 153.3591,-42.7933"/>
+</g>
+<!-- nginx -->
+<g id="node5" class="node">
+<title>nginx</title>
+<ellipse fill="none" stroke="#000000" cx="101.2027" cy="-162" rx="33.0682" ry="18"/>
+<text text-anchor="middle" x="101.2027" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">nginx</text>
+</g>
+<!-- nginx&#45;&gt;php -->
+<g id="edge4" class="edge">
+<title>nginx&#45;&gt;php</title>
+<path fill="none" stroke="#0000ff" d="M101.2027,-143.8314C101.2027,-136.131 101.2027,-126.9743 101.2027,-118.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="104.7028,-118.4132 101.2027,-108.4133 97.7028,-118.4133 104.7028,-118.4132"/>
+</g>
+</g>
+</svg>

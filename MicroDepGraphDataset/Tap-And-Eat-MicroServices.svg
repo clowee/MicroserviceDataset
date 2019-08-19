@@ -1,0 +1,61 @@
+<svg width="517px" height="155px"
+ viewBox="0.00 0.00 387.38 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 112)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-112 383.3827,-112 383.3827,4 -4,4"/>
+<!-- accounts -->
+<g id="node1" class="node">
+<title>accounts</title>
+<ellipse fill="none" stroke="#000000" cx="44.8213" cy="-90" rx="44.6434" ry="18"/>
+<text text-anchor="middle" x="44.8213" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">accounts</text>
+</g>
+<!-- configserver -->
+<g id="node2" class="node">
+<title>configserver</title>
+<ellipse fill="none" stroke="#000000" cx="192.8213" cy="-18" rx="59.0891" ry="18"/>
+<text text-anchor="middle" x="192.8213" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">configserver</text>
+</g>
+<!-- accounts&#45;&gt;configserver -->
+<g id="edge1" class="edge">
+<title>accounts&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M73.3572,-76.1177C95.7021,-65.2472 127.0765,-49.984 152.0658,-37.827"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="153.8373,-40.8575 161.2985,-33.3354 150.775,-34.5628 153.8373,-40.8575"/>
+</g>
+<!-- prices -->
+<g id="node3" class="node">
+<title>prices</title>
+<ellipse fill="none" stroke="#000000" cx="141.8213" cy="-90" rx="34.1852" ry="18"/>
+<text text-anchor="middle" x="141.8213" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">prices</text>
+</g>
+<!-- prices&#45;&gt;configserver -->
+<g id="edge2" class="edge">
+<title>prices&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M153.9076,-72.937C159.9967,-64.3407 167.5123,-53.7304 174.3099,-44.1338"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="177.3651,-45.8758 180.2892,-35.6924 171.6529,-41.8296 177.3651,-45.8758"/>
+</g>
+<!-- customers -->
+<g id="node4" class="node">
+<title>customers</title>
+<ellipse fill="none" stroke="#000000" cx="243.8213" cy="-90" rx="50.378" ry="18"/>
+<text text-anchor="middle" x="243.8213" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">customers</text>
+</g>
+<!-- customers&#45;&gt;configserver -->
+<g id="edge3" class="edge">
+<title>customers&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M231.2146,-72.2022C225.2073,-63.7214 217.9045,-53.4115 211.2873,-44.0696"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="214.0961,-41.9797 205.4598,-35.8425 208.3839,-46.0259 214.0961,-41.9797"/>
+</g>
+<!-- stores -->
+<g id="node5" class="node">
+<title>stores</title>
+<ellipse fill="none" stroke="#000000" cx="345.8213" cy="-90" rx="33.6228" ry="18"/>
+<text text-anchor="middle" x="345.8213" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">stores</text>
+</g>
+<!-- stores&#45;&gt;configserver -->
+<g id="edge4" class="edge">
+<title>stores&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M320.5565,-78.1107C297.1719,-67.1062 261.9664,-50.5389 234.4335,-37.5822"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="235.5852,-34.256 225.0467,-33.1649 232.6046,-40.5898 235.5852,-34.256"/>
+</g>
+</g>
+</svg>

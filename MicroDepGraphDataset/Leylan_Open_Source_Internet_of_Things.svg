@@ -1,0 +1,391 @@
+<svg width="1559px" height="731px"
+ viewBox="0.00 0.00 1169.00 548.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 544)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-544 1165,-544 1165,4 -4,4"/>
+<!-- api_proxy -->
+<g id="node1" class="node">
+<title>api_proxy</title>
+<ellipse fill="none" stroke="#000000" cx="648" cy="-450" rx="50.3858" ry="18"/>
+<text text-anchor="middle" x="648" y="-445.8" font-family="Times,serif" font-size="14.00" fill="#000000">api_proxy</text>
+</g>
+<!-- memcached -->
+<g id="node2" class="node">
+<title>memcached</title>
+<ellipse fill="none" stroke="#000000" cx="933" cy="-18" rx="57.303" ry="18"/>
+<text text-anchor="middle" x="933" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">memcached</text>
+</g>
+<!-- api_proxy&#45;&gt;memcached -->
+<g id="edge1" class="edge">
+<title>api_proxy&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M697.0443,-445.6483C818.406,-433.5324 1123,-394.3258 1123,-306 1123,-306 1123,-306 1123,-162 1123,-92.9427 1042.2925,-52.7336 986.0795,-33.1031"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="987.184,-29.782 976.5898,-29.9012 984.946,-36.4146 987.184,-29.782"/>
+</g>
+<!-- types -->
+<g id="node3" class="node">
+<title>types</title>
+<ellipse fill="none" stroke="#000000" cx="686" cy="-90" rx="31.339" ry="18"/>
+<text text-anchor="middle" x="686" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">types</text>
+</g>
+<!-- api_proxy&#45;&gt;types -->
+<g id="edge2" class="edge">
+<title>api_proxy&#45;&gt;types</title>
+<path fill="none" stroke="#0000ff" d="M637.2062,-432.2547C620.5372,-402.6977 591.4933,-341.3559 602,-288 614.7817,-223.0911 650.1038,-153.192 670.6457,-116.298"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="673.9,-117.6532 675.772,-107.225 667.8055,-114.2097 673.9,-117.6532"/>
+</g>
+<!-- subscriptions -->
+<g id="node4" class="node">
+<title>subscriptions</title>
+<ellipse fill="none" stroke="#000000" cx="852" cy="-162" rx="61.9963" ry="18"/>
+<text text-anchor="middle" x="852" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">subscriptions</text>
+</g>
+<!-- api_proxy&#45;&gt;subscriptions -->
+<g id="edge3" class="edge">
+<title>api_proxy&#45;&gt;subscriptions</title>
+<path fill="none" stroke="#0000ff" d="M695.4152,-444.0565C728.8766,-437.5401 772.6281,-423.9949 801,-396 856.8565,-340.8856 858.0744,-239.8583 854.8572,-190.567"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="858.3254,-190.0171 854.0728,-180.3133 851.3458,-190.5511 858.3254,-190.0171"/>
+</g>
+<!-- devices -->
+<g id="node5" class="node">
+<title>devices</title>
+<ellipse fill="none" stroke="#000000" cx="732" cy="-378" rx="39.9857" ry="18"/>
+<text text-anchor="middle" x="732" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">devices</text>
+</g>
+<!-- api_proxy&#45;&gt;devices -->
+<g id="edge4" class="edge">
+<title>api_proxy&#45;&gt;devices</title>
+<path fill="none" stroke="#0000ff" d="M667.4824,-433.3008C678.7734,-423.6228 693.147,-411.3026 705.4602,-400.7484"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="707.8863,-403.2787 713.2011,-394.1134 703.3307,-397.9639 707.8863,-403.2787"/>
+</g>
+<!-- profiles -->
+<g id="node6" class="node">
+<title>profiles</title>
+<ellipse fill="none" stroke="#000000" cx="759" cy="-234" rx="40.5654" ry="18"/>
+<text text-anchor="middle" x="759" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">profiles</text>
+</g>
+<!-- api_proxy&#45;&gt;profiles -->
+<g id="edge5" class="edge">
+<title>api_proxy&#45;&gt;profiles</title>
+<path fill="none" stroke="#0000ff" d="M695.4668,-444.1313C725.451,-437.6963 762.002,-424.2176 781,-396 808.4842,-355.1778 788.6474,-295.3404 772.9818,-260.9709"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="775.9709,-259.1066 768.5141,-251.5801 769.6498,-262.1139 775.9709,-259.1066"/>
+</g>
+<!-- people -->
+<g id="node7" class="node">
+<title>people</title>
+<ellipse fill="none" stroke="#000000" cx="648" cy="-306" rx="36.5594" ry="18"/>
+<text text-anchor="middle" x="648" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">people</text>
+</g>
+<!-- api_proxy&#45;&gt;people -->
+<g id="edge6" class="edge">
+<title>api_proxy&#45;&gt;people</title>
+<path fill="none" stroke="#0000ff" d="M648,-431.7623C648,-407.201 648,-363.2474 648,-334.3541"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="651.5001,-334.0896 648,-324.0896 644.5001,-334.0897 651.5001,-334.0896"/>
+</g>
+<!-- mongodb -->
+<g id="node8" class="node">
+<title>mongodb</title>
+<ellipse fill="none" stroke="#000000" cx="627" cy="-18" rx="47.539" ry="18"/>
+<text text-anchor="middle" x="627" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">mongodb</text>
+</g>
+<!-- api_proxy&#45;&gt;mongodb -->
+<g id="edge7" class="edge">
+<title>api_proxy&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M629.1758,-432.839C619.6736,-423.0264 608.9304,-409.9219 603,-396 590.382,-366.3786 596.7805,-356.1477 595,-324 589.3092,-221.2507 610.307,-99.8485 621.0467,-46.0606"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="624.4827,-46.7272 623.0469,-36.2301 617.6233,-45.3315 624.4827,-46.7272"/>
+</g>
+<!-- redis -->
+<g id="node9" class="node">
+<title>redis</title>
+<ellipse fill="none" stroke="#000000" cx="228" cy="-18" rx="29.6127" ry="18"/>
+<text text-anchor="middle" x="228" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">redis</text>
+</g>
+<!-- api_proxy&#45;&gt;redis -->
+<g id="edge8" class="edge">
+<title>api_proxy&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M601.0668,-443.4463C490.3037,-425.1629 213.4463,-362.3637 100,-180 64.7808,-123.3854 148.3215,-63.5146 196.6326,-35.0098"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="198.5799,-37.9272 205.4932,-29.8986 195.0822,-31.8636 198.5799,-37.9272"/>
+</g>
+<!-- types&#45;&gt;memcached -->
+<g id="edge9" class="edge">
+<title>types&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M714.334,-81.7407C754.9626,-69.8976 830.4566,-47.8912 881.2166,-33.0948"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="882.4002,-36.3955 891.0211,-30.2368 880.4412,-29.6752 882.4002,-36.3955"/>
+</g>
+<!-- types&#45;&gt;mongodb -->
+<g id="edge10" class="edge">
+<title>types&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M672.612,-73.6621C665.2076,-64.6263 655.8498,-53.2066 647.54,-43.0658"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="650.2032,-40.7937 641.1578,-35.2773 644.7888,-45.2305 650.2032,-40.7937"/>
+</g>
+<!-- types&#45;&gt;redis -->
+<g id="edge11" class="edge">
+<title>types&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M655.5946,-85.2201C575.071,-72.5614 356.3547,-38.178 266.912,-24.1172"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="267.3347,-20.6407 256.9124,-22.5452 266.2475,-27.5558 267.3347,-20.6407"/>
+</g>
+<!-- subscriptions&#45;&gt;memcached -->
+<g id="edge12" class="edge">
+<title>subscriptions&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M877.9276,-145.4448C890.6846,-135.983 905.179,-123.0152 914,-108 925.0219,-89.2384 929.6934,-64.952 931.6523,-46.3372"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="935.1613,-46.3772 932.5196,-36.117 928.1864,-45.7852 935.1613,-46.3772"/>
+</g>
+<!-- subscriptions&#45;&gt;types -->
+<g id="edge13" class="edge">
+<title>subscriptions&#45;&gt;types</title>
+<path fill="none" stroke="#0000ff" d="M817.201,-146.9064C788.8812,-134.6232 749.1045,-117.3706 720.7878,-105.0887"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="721.8542,-101.7362 711.2873,-100.968 719.0688,-108.1582 721.8542,-101.7362"/>
+</g>
+<!-- subscriptions&#45;&gt;mongodb -->
+<g id="edge14" class="edge">
+<title>subscriptions&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M835.2797,-144.294C813.3028,-121.2975 775.5532,-82.8135 759,-72 732.8992,-54.9494 700.5406,-41.608 674.3944,-32.4518"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="675.2982,-29.0622 664.7037,-29.1486 673.0397,-35.6879 675.2982,-29.0622"/>
+</g>
+<!-- subscriptions&#45;&gt;redis -->
+<g id="edge15" class="edge">
+<title>subscriptions&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M792.0832,-157.1179C640.2626,-144.6873 252.0741,-112.5034 247,-108 229.9913,-92.9044 226.0263,-66.7537 225.8563,-46.5184"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="229.3606,-46.3536 226.0788,-36.2799 222.3623,-46.2015 229.3606,-46.3536"/>
+</g>
+<!-- devices&#45;&gt;memcached -->
+<g id="edge16" class="edge">
+<title>devices&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M763.4233,-366.8171C787.5213,-357.4218 820.9562,-342.5632 847,-324 915.0725,-275.4801 938.2799,-258.133 968,-180 985.112,-135.0131 991.8805,-117.4362 976,-72 972.2844,-61.3692 965.5029,-51.267 958.4068,-42.7377"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="960.8563,-40.2252 951.5968,-35.0762 955.6243,-44.8756 960.8563,-40.2252"/>
+</g>
+<!-- devices&#45;&gt;types -->
+<g id="edge17" class="edge">
+<title>devices&#45;&gt;types</title>
+<path fill="none" stroke="#0000ff" d="M728.4205,-359.6763C723.6904,-335.1873 715.2301,-290.4118 709,-252 701.3999,-205.1415 693.9215,-150.4289 689.6444,-118.083"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="693.0945,-117.4732 688.3211,-108.0146 686.1542,-118.3854 693.0945,-117.4732"/>
+</g>
+<!-- devices&#45;&gt;subscriptions -->
+<g id="edge18" class="edge">
+<title>devices&#45;&gt;subscriptions</title>
+<path fill="none" stroke="#0000ff" d="M750.1382,-361.6006C773.6544,-339.2417 814.1192,-296.8188 835,-252 844.094,-232.4806 848.3238,-208.4275 850.2909,-190.0995"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="853.7849,-190.3238 851.2073,-180.0473 846.8138,-189.6882 853.7849,-190.3238"/>
+</g>
+<!-- devices&#45;&gt;profiles -->
+<g id="edge19" class="edge">
+<title>devices&#45;&gt;profiles</title>
+<path fill="none" stroke="#0000ff" d="M735.365,-360.0535C739.973,-335.4774 748.2936,-291.1008 753.7317,-262.0974"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="757.1897,-262.6465 755.5926,-252.1727 750.3096,-261.3564 757.1897,-262.6465"/>
+</g>
+<!-- devices&#45;&gt;people -->
+<g id="edge21" class="edge">
+<title>devices&#45;&gt;people</title>
+<path fill="none" stroke="#0000ff" d="M713.3577,-362.0209C701.8594,-352.1652 686.9366,-339.3742 674.2537,-328.5032"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="676.1716,-325.5373 666.3012,-321.6867 671.616,-330.8521 676.1716,-325.5373"/>
+</g>
+<!-- devices&#45;&gt;mongodb -->
+<g id="edge20" class="edge">
+<title>devices&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M758.0074,-363.9734C774.9941,-354.096 797.0791,-339.8461 814,-324 901.951,-241.6354 996.5383,-159.788 914,-72 883.4014,-39.4552 758.9473,-26.1284 684.3419,-20.9827"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="684.3696,-17.477 674.1606,-20.3097 683.9079,-24.4617 684.3696,-17.477"/>
+</g>
+<!-- devices&#45;&gt;redis -->
+<g id="edge22" class="edge">
+<title>devices&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M696.8061,-369.3066C614.7201,-347.7852 406.7372,-285.9606 264,-180 229.8585,-154.6552 215.9556,-147.8036 201,-108 192.9869,-86.6736 201.752,-61.8312 211.3739,-43.6558"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="214.5013,-45.2364 216.3993,-34.8129 208.4154,-41.7777 214.5013,-45.2364"/>
+</g>
+<!-- profiles&#45;&gt;memcached -->
+<g id="edge23" class="edge">
+<title>profiles&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M796.1378,-226.4817C839.2287,-216.985 906.4952,-199.5096 923,-180 954.5023,-142.7625 947.976,-81.8187 940.4448,-46.2505"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="943.7601,-45.0477 938.1163,-36.0811 936.9367,-46.6101 943.7601,-45.0477"/>
+</g>
+<!-- profiles&#45;&gt;types -->
+<g id="edge24" class="edge">
+<title>profiles&#45;&gt;types</title>
+<path fill="none" stroke="#0000ff" d="M750.0488,-216.3428C737.3926,-191.3773 714.1716,-145.5715 699.4396,-116.5109"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="702.4399,-114.6886 694.7964,-107.3519 696.1963,-117.8538 702.4399,-114.6886"/>
+</g>
+<!-- profiles&#45;&gt;subscriptions -->
+<g id="edge25" class="edge">
+<title>profiles&#45;&gt;subscriptions</title>
+<path fill="none" stroke="#0000ff" d="M779.1796,-218.3771C791.6837,-208.6965 807.9739,-196.0847 821.9753,-185.2449"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="824.1441,-187.9922 829.9087,-179.1029 819.8588,-182.4572 824.1441,-187.9922"/>
+</g>
+<!-- profiles&#45;&gt;mongodb -->
+<g id="edge26" class="edge">
+<title>profiles&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M760.0117,-215.9959C760.8849,-183.8547 758.4016,-115.8656 726,-72 713.0637,-54.4867 692.6838,-41.9988 673.7688,-33.4751"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="674.9236,-30.1633 664.3502,-29.4892 672.1954,-36.6098 674.9236,-30.1633"/>
+</g>
+<!-- profiles&#45;&gt;redis -->
+<g id="edge27" class="edge">
+<title>profiles&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M724.1644,-224.647C660.4423,-207.666 520.7277,-171.0244 402,-144 323.7248,-126.1832 275.7937,-170.1646 225,-108 210.9972,-90.8625 213.3978,-65.1586 218.3424,-45.6023"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="221.7786,-46.3168 221.1745,-35.7392 215.0505,-44.3849 221.7786,-46.3168"/>
+</g>
+<!-- people&#45;&gt;memcached -->
+<g id="edge28" class="edge">
+<title>people&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M684.3863,-303.0322C749.9413,-295.4999 886.5779,-269.3268 946,-180 972.7775,-139.7465 969.7563,-119.1347 959,-72 956.8807,-62.7132 952.9523,-53.1628 948.7796,-44.725"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="951.8059,-42.9603 944.0481,-35.7445 945.6129,-46.2231 951.8059,-42.9603"/>
+</g>
+<!-- people&#45;&gt;types -->
+<g id="edge29" class="edge">
+<title>people&#45;&gt;types</title>
+<path fill="none" stroke="#0000ff" d="M650.041,-287.9113C653.5743,-257.8607 661.4742,-195.8254 672,-144 673.7542,-135.363 676.0303,-126.0431 678.2356,-117.617"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="681.6347,-118.4543 680.8506,-107.8885 674.8746,-116.6371 681.6347,-118.4543"/>
+</g>
+<!-- people&#45;&gt;subscriptions -->
+<g id="edge30" class="edge">
+<title>people&#45;&gt;subscriptions</title>
+<path fill="none" stroke="#0000ff" d="M684.0376,-302.1008C719.6136,-296.5369 773.6724,-283.2576 809,-252 827.4435,-235.6814 838.6653,-209.7198 844.9974,-189.8645"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="848.399,-190.7035 847.8753,-180.1216 841.6858,-188.7204 848.399,-190.7035"/>
+</g>
+<!-- people&#45;&gt;profiles -->
+<g id="edge31" class="edge">
+<title>people&#45;&gt;profiles</title>
+<path fill="none" stroke="#0000ff" d="M670.1957,-291.6028C686.6155,-280.9521 709.2067,-266.2983 727.4939,-254.4364"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="729.5947,-257.2456 736.0796,-248.8673 725.7853,-251.3729 729.5947,-257.2456"/>
+</g>
+<!-- people&#45;&gt;mongodb -->
+<g id="edge32" class="edge">
+<title>people&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M646.6864,-287.9843C643.136,-239.2939 633.3289,-104.7961 629.0458,-46.0573"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="632.5312,-45.7278 628.3131,-36.0089 625.5497,-46.237 632.5312,-45.7278"/>
+</g>
+<!-- people&#45;&gt;redis -->
+<g id="edge33" class="edge">
+<title>people&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M618.8514,-294.9108C524.9712,-258.9141 235.1757,-145.4952 211,-108 198.746,-88.9946 205.3525,-63.3313 213.6466,-44.2721"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="216.9313,-45.5135 218.0468,-34.9776 210.6044,-42.5183 216.9313,-45.5135"/>
+</g>
+<!-- mqtt -->
+<g id="node10" class="node">
+<title>mqtt</title>
+<ellipse fill="none" stroke="#000000" cx="532" cy="-90" rx="28.991" ry="18"/>
+<text text-anchor="middle" x="532" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">mqtt</text>
+</g>
+<!-- mqtt&#45;&gt;memcached -->
+<g id="edge34" class="edge">
+<title>mqtt&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M559.8792,-84.9943C624.3745,-73.4141 785.0657,-44.5618 873.063,-28.7618"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="873.9391,-32.1605 883.1631,-26.9483 872.7019,-25.2707 873.9391,-32.1605"/>
+</g>
+<!-- mqtt&#45;&gt;mongodb -->
+<g id="edge35" class="edge">
+<title>mqtt&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M550.317,-76.1177C563.6919,-65.9809 582.107,-52.0242 597.5388,-40.3285"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="599.8984,-42.9318 605.7541,-34.1022 595.6703,-37.353 599.8984,-42.9318"/>
+</g>
+<!-- mqtt&#45;&gt;redis -->
+<g id="edge36" class="edge">
+<title>mqtt&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M510.0803,-78.2108C505.2116,-75.9123 500.0074,-73.6938 495,-72 416.4612,-45.4344 320.2762,-29.9294 267.4462,-22.7946"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="267.8484,-19.3174 257.4763,-21.4784 266.9322,-26.2572 267.8484,-19.3174"/>
+</g>
+<!-- nodes -->
+<g id="node11" class="node">
+<title>nodes</title>
+<ellipse fill="none" stroke="#000000" cx="152" cy="-522" rx="33.6286" ry="18"/>
+<text text-anchor="middle" x="152" y="-517.8" font-family="Times,serif" font-size="14.00" fill="#000000">nodes</text>
+</g>
+<!-- nodes&#45;&gt;api_proxy -->
+<g id="edge38" class="edge">
+<title>nodes&#45;&gt;api_proxy</title>
+<path fill="none" stroke="#0000ff" d="M184.5439,-517.2759C267.3484,-505.2559 486.8534,-473.3923 591.2706,-458.2349"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="591.9162,-461.678 601.3096,-456.7776 590.9105,-454.7506 591.9162,-461.678"/>
+</g>
+<!-- nodes&#45;&gt;memcached -->
+<g id="edge37" class="edge">
+<title>nodes&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M185.5712,-520.8286C360.6482,-514.2859 1161,-478.8607 1161,-378 1161,-378 1161,-378 1161,-162 1161,-82.6233 1060.9926,-45.2249 993.4458,-29.0181"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="993.8481,-25.5193 983.3178,-26.6869 992.2779,-32.3409 993.8481,-25.5193"/>
+</g>
+<!-- nodes&#45;&gt;mongodb -->
+<g id="edge40" class="edge">
+<title>nodes&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M144.1264,-504.2135C132.9959,-477.4059 114,-424.799 114,-378 114,-378 114,-378 114,-162 114,-90.6269 180.4063,-97.6789 247,-72 304.8452,-49.6946 479.3675,-31.2851 570.387,-22.8927"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="570.8865,-26.3618 580.527,-21.9674 570.2503,-19.3907 570.8865,-26.3618"/>
+</g>
+<!-- nodes&#45;&gt;redis -->
+<g id="edge41" class="edge">
+<title>nodes&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M124.8254,-511.0704C81.1049,-491.4794 0,-445.9758 0,-378 0,-378 0,-378 0,-162 0,-73.7873 123.5118,-37.4189 188.7223,-24.3649"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="189.4946,-27.7807 198.6597,-22.4656 188.1805,-20.9052 189.4946,-27.7807"/>
+</g>
+<!-- nodes&#45;&gt;mqtt -->
+<g id="edge39" class="edge">
+<title>nodes&#45;&gt;mqtt</title>
+<path fill="none" stroke="#0000ff" d="M152,-503.8146C152,-476.4983 152,-423.25 152,-378 152,-378 152,-378 152,-234 152,-71.5952 345.5682,-171.6039 495,-108 496.6268,-107.3076 498.2848,-106.5808 499.9529,-105.8328"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="501.8767,-108.7981 509.4683,-101.4077 498.9249,-102.4509 501.8767,-108.7981"/>
+</g>
+<!-- physicals -->
+<g id="node12" class="node">
+<title>physicals</title>
+<ellipse fill="none" stroke="#000000" cx="858" cy="-90" rx="46.9477" ry="18"/>
+<text text-anchor="middle" x="858" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">physicals</text>
+</g>
+<!-- physicals&#45;&gt;memcached -->
+<g id="edge42" class="edge">
+<title>physicals&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M875.774,-72.937C885.3248,-63.7682 897.2621,-52.3084 907.7593,-42.2311"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="910.3037,-44.6402 915.0937,-35.19 905.4559,-39.5905 910.3037,-44.6402"/>
+</g>
+<!-- physicals&#45;&gt;mongodb -->
+<g id="edge43" class="edge">
+<title>physicals&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M821.3974,-78.5914C781.387,-66.1206 717.1808,-46.1083 673.6005,-32.5248"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="674.4016,-29.1085 663.8131,-29.4742 672.3186,-35.7914 674.4016,-29.1085"/>
+</g>
+<!-- physicals&#45;&gt;redis -->
+<g id="edge44" class="edge">
+<title>physicals&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M813.7382,-83.6548C788.1278,-80.0609 755.2708,-75.582 726,-72 555.6788,-51.1569 352.0697,-30.3646 267.665,-21.9266"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="267.7992,-18.4227 257.5011,-20.9127 267.1043,-25.3882 267.7992,-18.4227"/>
+</g>
+<!-- webhooks -->
+<g id="node13" class="node">
+<title>webhooks</title>
+<ellipse fill="none" stroke="#000000" cx="306" cy="-90" rx="50.3858" ry="18"/>
+<text text-anchor="middle" x="306" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">webhooks</text>
+</g>
+<!-- webhooks&#45;&gt;memcached -->
+<g id="edge45" class="edge">
+<title>webhooks&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M342.5326,-77.6071C349.9029,-75.4614 357.6463,-73.4559 365,-72 459.4894,-53.2932 738.2293,-31.8437 866.7356,-22.6153"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="867.114,-26.0973 876.8388,-21.8928 866.6145,-19.1151 867.114,-26.0973"/>
+</g>
+<!-- webhooks&#45;&gt;mongodb -->
+<g id="edge46" class="edge">
+<title>webhooks&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M343.6227,-77.9526C350.6927,-75.8509 358.0474,-73.773 365,-72 436.66,-53.726 520.5423,-37.2925 573.716,-27.4802"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="574.3983,-30.9135 583.6028,-25.6668 573.1354,-24.0284 574.3983,-30.9135"/>
+</g>
+<!-- webhooks&#45;&gt;redis -->
+<g id="edge47" class="edge">
+<title>webhooks&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M287.5151,-72.937C276.9002,-63.1386 263.4507,-50.7237 252.0237,-40.1758"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="254.2177,-37.4377 244.4956,-33.2267 249.4697,-42.5814 254.2177,-37.4377"/>
+</g>
+<!-- websockets -->
+<g id="node14" class="node">
+<title>websockets</title>
+<ellipse fill="none" stroke="#000000" cx="430" cy="-90" rx="55.5966" ry="18"/>
+<text text-anchor="middle" x="430" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">websockets</text>
+</g>
+<!-- websockets&#45;&gt;memcached -->
+<g id="edge48" class="edge">
+<title>websockets&#45;&gt;memcached</title>
+<path fill="none" stroke="#0000ff" d="M470.4023,-77.6368C478.1825,-75.5408 486.3051,-73.5461 494,-72 624.9432,-45.6909 780.6006,-30.2048 866.9463,-22.9794"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="867.4482,-26.45 877.1264,-22.1391 866.8723,-19.4737 867.4482,-26.45"/>
+</g>
+<!-- websockets&#45;&gt;mongodb -->
+<g id="edge49" class="edge">
+<title>websockets&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M467.0542,-76.4574C500.0629,-64.3932 548.4001,-46.7269 583.2887,-33.9757"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="584.5576,-37.2384 592.7485,-30.5183 582.1547,-30.6638 584.5576,-37.2384"/>
+</g>
+<!-- websockets&#45;&gt;redis -->
+<g id="edge50" class="edge">
+<title>websockets&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M392.4788,-76.6261C355.56,-63.4669 299.6113,-43.5248 263.4318,-30.6292"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="264.3785,-27.2509 253.7838,-27.1903 262.0282,-33.8446 264.3785,-27.2509"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,253 @@
+<svg width="1732px" height="347px"
+ viewBox="0.00 0.00 1299.28 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 256)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 1295.2775,-256 1295.2775,4 -4,4"/>
+<!-- kafka -->
+<g id="node1" class="node">
+<title>kafka</title>
+<ellipse fill="none" stroke="#000000" cx="703.6611" cy="-90" rx="32.4634" ry="18"/>
+<text text-anchor="middle" x="703.6611" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">kafka</text>
+</g>
+<!-- zookeeper -->
+<g id="node2" class="node">
+<title>zookeeper</title>
+<ellipse fill="none" stroke="#000000" cx="771.6611" cy="-18" rx="50.925" ry="18"/>
+<text text-anchor="middle" x="771.6611" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">zookeeper</text>
+</g>
+<!-- kafka&#45;&gt;zookeeper -->
+<g id="edge1" class="edge">
+<title>kafka&#45;&gt;zookeeper</title>
+<path fill="none" stroke="#0000ff" d="M718.7525,-74.0209C727.5055,-64.753 738.71,-52.8894 748.5528,-42.4676"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="751.103,-44.8648 755.4248,-35.1915 746.0139,-40.0584 751.103,-44.8648"/>
+</g>
+<!-- cdc_service -->
+<g id="node3" class="node">
+<title>cdc_service</title>
+<ellipse fill="none" stroke="#000000" cx="572.6611" cy="-162" rx="56.7193" ry="18"/>
+<text text-anchor="middle" x="572.6611" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">cdc_service</text>
+</g>
+<!-- cdc_service&#45;&gt;kafka -->
+<g id="edge2" class="edge">
+<title>cdc_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M601.0862,-146.3771C621.8929,-134.9413 650.1419,-119.4151 671.7269,-107.5517"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="673.4507,-110.5981 680.5284,-102.7142 670.079,-104.4636 673.4507,-110.5981"/>
+</g>
+<!-- mysql -->
+<g id="node4" class="node">
+<title>mysql</title>
+<ellipse fill="none" stroke="#000000" cx="510.6611" cy="-90" rx="34.7903" ry="18"/>
+<text text-anchor="middle" x="510.6611" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">mysql</text>
+</g>
+<!-- cdc_service&#45;&gt;mysql -->
+<g id="edge3" class="edge">
+<title>cdc_service&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M557.6527,-144.5708C549.8478,-135.5071 540.1806,-124.2807 531.6475,-114.3713"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="534.2819,-112.0668 525.1045,-106.7729 528.9775,-116.6345 534.2819,-112.0668"/>
+</g>
+<!-- ftgo_consumer_service -->
+<g id="node5" class="node">
+<title>ftgo_consumer_service</title>
+<ellipse fill="none" stroke="#000000" cx="508.6611" cy="-234" rx="101.266" ry="18"/>
+<text text-anchor="middle" x="508.6611" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ftgo_consumer_service</text>
+</g>
+<!-- ftgo_consumer_service&#45;&gt;kafka -->
+<g id="edge4" class="edge">
+<title>ftgo_consumer_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M563.4732,-218.7744C588.1513,-210.1104 616.6232,-197.4419 638.6611,-180 660.5801,-162.6523 678.5257,-136.0746 689.9649,-116.2929"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="693.0732,-117.9055 694.9003,-107.4693 686.964,-114.4883 693.0732,-117.9055"/>
+</g>
+<!-- ftgo_consumer_service&#45;&gt;cdc_service -->
+<g id="edge6" class="edge">
+<title>ftgo_consumer_service&#45;&gt;cdc_service</title>
+<path fill="none" stroke="#0000ff" d="M524.4814,-216.2022C532.2894,-207.4182 541.8416,-196.672 550.3754,-187.0714"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="553.216,-189.144 557.2437,-179.3446 547.9841,-184.4934 553.216,-189.144"/>
+</g>
+<!-- ftgo_consumer_service&#45;&gt;mysql -->
+<g id="edge5" class="edge">
+<title>ftgo_consumer_service&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M507.6217,-215.7238C506.7366,-197.5369 505.7427,-168.8329 506.6611,-144 506.9739,-135.5452 507.5611,-126.3609 508.1911,-118.0052"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="511.6843,-118.2292 508.9947,-107.9815 504.7067,-117.6698 511.6843,-118.2292"/>
+</g>
+<!-- ftgo_order_service -->
+<g id="node6" class="node">
+<title>ftgo_order_service</title>
+<ellipse fill="none" stroke="#000000" cx="305.6611" cy="-234" rx="83.9296" ry="18"/>
+<text text-anchor="middle" x="305.6611" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ftgo_order_service</text>
+</g>
+<!-- ftgo_order_service&#45;&gt;kafka -->
+<g id="edge8" class="edge">
+<title>ftgo_order_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M341.3556,-217.6591C394.5592,-193.3571 490.1953,-149.9037 506.6611,-144 559.9412,-124.8968 623.3601,-108.6237 663.5651,-99.0774"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="664.5803,-102.4342 673.5148,-96.7399 662.9793,-95.6198 664.5803,-102.4342"/>
+</g>
+<!-- ftgo_order_service&#45;&gt;cdc_service -->
+<g id="edge10" class="edge">
+<title>ftgo_order_service&#45;&gt;cdc_service</title>
+<path fill="none" stroke="#0000ff" d="M358.0932,-219.861C404.7404,-207.282 472.6402,-188.9719 519.5056,-176.3341"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="520.4278,-179.7105 529.1716,-173.7275 518.6052,-172.9519 520.4278,-179.7105"/>
+</g>
+<!-- ftgo_order_service&#45;&gt;mysql -->
+<g id="edge9" class="edge">
+<title>ftgo_order_service&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M330.3889,-216.6302C368.3871,-189.9388 440.9781,-138.9481 481.4905,-110.4906"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="483.6927,-113.2209 489.8639,-104.6088 479.6691,-107.4928 483.6927,-113.2209"/>
+</g>
+<!-- zipkin -->
+<g id="node7" class="node">
+<title>zipkin</title>
+<ellipse fill="none" stroke="#000000" cx="305.6611" cy="-162" rx="35.3528" ry="18"/>
+<text text-anchor="middle" x="305.6611" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">zipkin</text>
+</g>
+<!-- ftgo_order_service&#45;&gt;zipkin -->
+<g id="edge7" class="edge">
+<title>ftgo_order_service&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M305.6611,-215.8314C305.6611,-208.131 305.6611,-198.9743 305.6611,-190.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="309.1612,-190.4132 305.6611,-180.4133 302.1612,-190.4133 309.1612,-190.4132"/>
+</g>
+<!-- ftgo_kitchen_service -->
+<g id="node8" class="node">
+<title>ftgo_kitchen_service</title>
+<ellipse fill="none" stroke="#000000" cx="949.6611" cy="-234" rx="92.0354" ry="18"/>
+<text text-anchor="middle" x="949.6611" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ftgo_kitchen_service</text>
+</g>
+<!-- ftgo_kitchen_service&#45;&gt;kafka -->
+<g id="edge12" class="edge">
+<title>ftgo_kitchen_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M928.2151,-216.268C904.2171,-196.9537 863.7008,-165.8949 825.6611,-144 798.1916,-128.1891 765.2316,-113.8524 740.4989,-103.9312"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="741.703,-100.6436 731.1166,-100.2205 739.1285,-107.1531 741.703,-100.6436"/>
+</g>
+<!-- ftgo_kitchen_service&#45;&gt;zookeeper -->
+<g id="edge11" class="edge">
+<title>ftgo_kitchen_service&#45;&gt;zookeeper</title>
+<path fill="none" stroke="#0000ff" d="M934.7911,-215.9555C903.157,-177.568 829.1089,-87.7119 792.6703,-43.4943"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="795.1757,-41.031 786.1151,-35.5396 789.7736,-45.4827 795.1757,-41.031"/>
+</g>
+<!-- ftgo_kitchen_service&#45;&gt;cdc_service -->
+<g id="edge14" class="edge">
+<title>ftgo_kitchen_service&#45;&gt;cdc_service</title>
+<path fill="none" stroke="#0000ff" d="M883.5613,-221.3762C812.2545,-207.7579 699.7773,-186.2768 631.4484,-173.2273"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="631.7651,-169.7246 621.286,-171.2864 630.4519,-176.6003 631.7651,-169.7246"/>
+</g>
+<!-- ftgo_kitchen_service&#45;&gt;mysql -->
+<g id="edge13" class="edge">
+<title>ftgo_kitchen_service&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M902.1468,-218.3759C847.5086,-200.4132 755.1162,-170.0509 675.6611,-144 632.7045,-129.9158 583.4459,-113.7992 550.0147,-102.8662"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="550.7647,-99.4291 540.1721,-99.6475 548.589,-106.0824 550.7647,-99.4291"/>
+</g>
+<!-- ftgo_restaurant_service -->
+<g id="node9" class="node">
+<title>ftgo_restaurant_service</title>
+<ellipse fill="none" stroke="#000000" cx="101.6611" cy="-234" rx="101.8225" ry="18"/>
+<text text-anchor="middle" x="101.6611" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ftgo_restaurant_service</text>
+</g>
+<!-- ftgo_restaurant_service&#45;&gt;kafka -->
+<g id="edge16" class="edge">
+<title>ftgo_restaurant_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M137.5501,-217.0161C158.3464,-206.8548 184.8464,-193.3548 207.6611,-180 232.5544,-165.4285 234.6131,-154.0203 261.6611,-144 264.0066,-143.1311 551.7442,-108.3374 661.65,-95.0688"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="662.2069,-98.527 671.7154,-93.8538 661.368,-91.5775 662.2069,-98.527"/>
+</g>
+<!-- ftgo_restaurant_service&#45;&gt;zookeeper -->
+<g id="edge15" class="edge">
+<title>ftgo_restaurant_service&#45;&gt;zookeeper</title>
+<path fill="none" stroke="#0000ff" d="M108.8725,-215.7892C118.01,-195.1371 135.7538,-162.0035 161.6611,-144 251.1293,-81.8269 577.6766,-39.4655 712.6582,-24.2468"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="713.2607,-27.7014 722.8103,-23.1128 712.4835,-20.7446 713.2607,-27.7014"/>
+</g>
+<!-- ftgo_restaurant_service&#45;&gt;cdc_service -->
+<g id="edge18" class="edge">
+<title>ftgo_restaurant_service&#45;&gt;cdc_service</title>
+<path fill="none" stroke="#0000ff" d="M176.5756,-221.7274C188.6378,-219.7872 200.9913,-217.8214 212.6611,-216 317.2609,-199.6745 439.1116,-181.5931 510.8514,-171.0437"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="511.6794,-174.4597 521.0643,-169.543 510.6617,-167.534 511.6794,-174.4597"/>
+</g>
+<!-- ftgo_restaurant_service&#45;&gt;mysql -->
+<g id="edge17" class="edge">
+<title>ftgo_restaurant_service&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M119.6758,-216.0083C141.5815,-195.2412 180.6153,-161.6825 220.6611,-144 302.2013,-107.9954 406.9156,-95.9876 465.6015,-91.9894"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="465.9008,-95.4776 475.6595,-91.3524 465.4583,-88.4915 465.9008,-95.4776"/>
+</g>
+<!-- ftgo_accounting_service -->
+<g id="node10" class="node">
+<title>ftgo_accounting_service</title>
+<ellipse fill="none" stroke="#000000" cx="733.6611" cy="-234" rx="105.9228" ry="18"/>
+<text text-anchor="middle" x="733.6611" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ftgo_accounting_service</text>
+</g>
+<!-- ftgo_accounting_service&#45;&gt;kafka -->
+<g id="edge20" class="edge">
+<title>ftgo_accounting_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M729.8616,-215.7623C724.7221,-191.0928 715.5069,-146.8598 709.4889,-117.9731"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="712.8959,-117.1656 707.4298,-108.0896 706.043,-118.5933 712.8959,-117.1656"/>
+</g>
+<!-- ftgo_accounting_service&#45;&gt;zookeeper -->
+<g id="edge19" class="edge">
+<title>ftgo_accounting_service&#45;&gt;zookeeper</title>
+<path fill="none" stroke="#0000ff" d="M736.8356,-215.9555C743.4577,-178.3144 758.7857,-91.1867 766.7133,-46.1246"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="770.1833,-46.6003 768.469,-36.1451 763.2892,-45.3874 770.1833,-46.6003"/>
+</g>
+<!-- ftgo_accounting_service&#45;&gt;cdc_service -->
+<g id="edge22" class="edge">
+<title>ftgo_accounting_service&#45;&gt;cdc_service</title>
+<path fill="none" stroke="#0000ff" d="M695.9138,-217.1192C671.6016,-206.2467 639.9602,-192.0965 614.8245,-180.8557"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="616.0961,-177.5903 605.5384,-176.7029 613.2383,-183.9804 616.0961,-177.5903"/>
+</g>
+<!-- ftgo_accounting_service&#45;&gt;mysql -->
+<g id="edge21" class="edge">
+<title>ftgo_accounting_service&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M718.3982,-216.0998C700.8043,-196.348 670.2322,-164.6302 638.6611,-144 611.0903,-125.9837 576.5126,-111.823 550.2481,-102.5308"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="551.2157,-99.1623 540.621,-99.21 548.9331,-105.7797 551.2157,-99.1623"/>
+</g>
+<!-- ftgo_order_history_service -->
+<g id="node11" class="node">
+<title>ftgo_order_history_service</title>
+<ellipse fill="none" stroke="#000000" cx="1175.6611" cy="-234" rx="115.7329" ry="18"/>
+<text text-anchor="middle" x="1175.6611" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ftgo_order_history_service</text>
+</g>
+<!-- ftgo_order_history_service&#45;&gt;kafka -->
+<g id="edge24" class="edge">
+<title>ftgo_order_history_service&#45;&gt;kafka</title>
+<path fill="none" stroke="#0000ff" d="M1122.8906,-217.9005C1026.9579,-188.6329 826.1358,-127.3652 742.0166,-101.7017"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="742.9377,-98.3235 732.3515,-98.753 740.895,-105.0188 742.9377,-98.3235"/>
+</g>
+<!-- ftgo_order_history_service&#45;&gt;zookeeper -->
+<g id="edge23" class="edge">
+<title>ftgo_order_history_service&#45;&gt;zookeeper</title>
+<path fill="none" stroke="#0000ff" d="M1137.8696,-216.8725C1115.5235,-206.5535 1086.7726,-192.9429 1061.6611,-180 968.3786,-131.9205 861.181,-70.3384 806.9846,-38.7434"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="808.5243,-35.5894 798.1238,-33.5695 804.9945,-41.6344 808.5243,-35.5894"/>
+</g>
+<!-- ftgo_order_history_service&#45;&gt;cdc_service -->
+<g id="edge26" class="edge">
+<title>ftgo_order_history_service&#45;&gt;cdc_service</title>
+<path fill="none" stroke="#0000ff" d="M1091.661,-221.545C1077.9674,-219.6179 1063.9265,-217.704 1050.6611,-216 902.7568,-197.001 728.6343,-178.2348 636.8206,-168.6194"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="637.1575,-165.1356 626.8478,-167.5771 636.4298,-172.0977 637.1575,-165.1356"/>
+</g>
+<!-- dynamodblocal -->
+<g id="node12" class="node">
+<title>dynamodblocal</title>
+<ellipse fill="none" stroke="#000000" cx="1216.6611" cy="-90" rx="70.6509" ry="18"/>
+<text text-anchor="middle" x="1216.6611" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">dynamodblocal</text>
+</g>
+<!-- ftgo_order_history_service&#45;&gt;dynamodblocal -->
+<g id="edge25" class="edge">
+<title>ftgo_order_history_service&#45;&gt;dynamodblocal</title>
+<path fill="none" stroke="#0000ff" d="M1216.0226,-216.9864C1231.3134,-208.3122 1247.089,-196.1285 1255.6611,-180 1266.8887,-158.8753 1254.049,-133.8326 1240.1755,-115.5337"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1242.8122,-113.2276 1233.8112,-107.6389 1237.3624,-117.6209 1242.8122,-113.2276"/>
+</g>
+<!-- dynamodblocal_init -->
+<g id="node13" class="node">
+<title>dynamodblocal_init</title>
+<ellipse fill="none" stroke="#000000" cx="1158.6611" cy="-162" rx="88.0673" ry="18"/>
+<text text-anchor="middle" x="1158.6611" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">dynamodblocal_init</text>
+</g>
+<!-- ftgo_order_history_service&#45;&gt;dynamodblocal_init -->
+<g id="edge27" class="edge">
+<title>ftgo_order_history_service&#45;&gt;dynamodblocal_init</title>
+<path fill="none" stroke="#0000ff" d="M1171.3713,-215.8314C1169.5532,-208.131 1167.3912,-198.9743 1165.3706,-190.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1168.7131,-189.3414 1163.0087,-180.4133 1161.9004,-190.95 1168.7131,-189.3414"/>
+</g>
+<!-- dynamodblocal_init&#45;&gt;dynamodblocal -->
+<g id="edge28" class="edge">
+<title>dynamodblocal_init&#45;&gt;dynamodblocal</title>
+<path fill="none" stroke="#0000ff" d="M1172.9982,-144.2022C1179.8997,-135.6348 1188.3048,-125.2009 1195.8908,-115.7839"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1198.7403,-117.8258 1202.288,-107.8425 1193.289,-113.4344 1198.7403,-117.8258"/>
+</g>
+</g>
+</svg>

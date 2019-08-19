@@ -1,0 +1,157 @@
+<svg width="830px" height="251px"
+ viewBox="0.00 0.00 622.78 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 184)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 618.7843,-184 618.7843,4 -4,4"/>
+<!-- ping -->
+<g id="node1" class="node">
+<title>ping</title>
+<ellipse fill="none" stroke="#000000" cx="501.4331" cy="-162" rx="28.4127" ry="18"/>
+<text text-anchor="middle" x="501.4331" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">ping</text>
+</g>
+<!-- distributed_cache -->
+<g id="node2" class="node">
+<title>distributed_cache</title>
+<ellipse fill="none" stroke="#000000" cx="153.4331" cy="-90" rx="79.2922" ry="18"/>
+<text text-anchor="middle" x="153.4331" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">distributed_cache</text>
+</g>
+<!-- ping&#45;&gt;distributed_cache -->
+<g id="edge1" class="edge">
+<title>ping&#45;&gt;distributed_cache</title>
+<path fill="none" stroke="#0000ff" d="M474.4157,-156.4102C420.7711,-145.3113 299.3496,-120.1896 222.1783,-104.2231"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="222.5633,-100.7287 212.0615,-102.13 221.145,-107.5836 222.5633,-100.7287"/>
+</g>
+<!-- database_sql -->
+<g id="node3" class="node">
+<title>database_sql</title>
+<ellipse fill="none" stroke="#000000" cx="496.4331" cy="-18" rx="60.2518" ry="18"/>
+<text text-anchor="middle" x="496.4331" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">database_sql</text>
+</g>
+<!-- ping&#45;&gt;database_sql -->
+<g id="edge2" class="edge">
+<title>ping&#45;&gt;database_sql</title>
+<path fill="none" stroke="#0000ff" d="M528.893,-156.6276C554.4813,-150.0062 591.201,-135.9987 608.4331,-108 616.8194,-94.3739 616.9425,-85.5495 608.4331,-72 596.3368,-52.7391 575.2255,-40.1855 554.5688,-32.0808"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="555.7381,-28.7819 545.1439,-28.662 553.351,-35.3623 555.7381,-28.7819"/>
+</g>
+<!-- event_sourcing_middleware -->
+<g id="node4" class="node">
+<title>event_sourcing_middleware</title>
+<ellipse fill="none" stroke="#000000" cx="408.4331" cy="-90" rx="120.3897" ry="18"/>
+<text text-anchor="middle" x="408.4331" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">event_sourcing_middleware</text>
+</g>
+<!-- ping&#45;&gt;event_sourcing_middleware -->
+<g id="edge3" class="edge">
+<title>ping&#45;&gt;event_sourcing_middleware</title>
+<path fill="none" stroke="#0000ff" d="M483.0593,-147.7751C470.669,-138.1827 454.0112,-125.2863 439.5771,-114.1115"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="441.4344,-111.1231 431.3845,-107.7689 437.1492,-116.6582 441.4344,-111.1231"/>
+</g>
+<!-- messages_middleware -->
+<g id="node5" class="node">
+<title>messages_middleware</title>
+<ellipse fill="none" stroke="#000000" cx="260.4331" cy="-18" rx="97.8305" ry="18"/>
+<text text-anchor="middle" x="260.4331" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">messages_middleware</text>
+</g>
+<!-- ping&#45;&gt;messages_middleware -->
+<g id="edge4" class="edge">
+<title>ping&#45;&gt;messages_middleware</title>
+<path fill="none" stroke="#0000ff" d="M516.4623,-146.5049C533.2606,-127.288 555.8384,-94.3399 537.4331,-72 525.3948,-57.3884 426.9217,-40.7364 350.7723,-29.8341"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="351.0525,-26.3389 340.6603,-28.4011 350.0703,-33.2696 351.0525,-26.3389"/>
+</g>
+<!-- event_sourcing_middleware&#45;&gt;database_sql -->
+<g id="edge5" class="edge">
+<title>event_sourcing_middleware&#45;&gt;database_sql</title>
+<path fill="none" stroke="#0000ff" d="M430.1859,-72.2022C441.4341,-62.9991 455.3147,-51.6423 467.4595,-41.7056"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="470.0132,-44.1385 475.5365,-35.0972 465.5805,-38.7208 470.0132,-44.1385"/>
+</g>
+<!-- event_sourcing_middleware&#45;&gt;messages_middleware -->
+<g id="edge6" class="edge">
+<title>event_sourcing_middleware&#45;&gt;messages_middleware</title>
+<path fill="none" stroke="#0000ff" d="M372.9834,-72.7542C352.3311,-62.7072 326.121,-49.9563 304.1908,-39.2875"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="305.6064,-36.084 295.0829,-34.8566 302.5441,-42.3787 305.6064,-36.084"/>
+</g>
+<!-- tracking -->
+<g id="node6" class="node">
+<title>tracking</title>
+<ellipse fill="none" stroke="#000000" cx="153.4331" cy="-162" rx="42.8557" ry="18"/>
+<text text-anchor="middle" x="153.4331" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">tracking</text>
+</g>
+<!-- tracking&#45;&gt;distributed_cache -->
+<g id="edge7" class="edge">
+<title>tracking&#45;&gt;distributed_cache</title>
+<path fill="none" stroke="#0000ff" d="M153.4331,-143.8314C153.4331,-136.131 153.4331,-126.9743 153.4331,-118.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="156.9332,-118.4132 153.4331,-108.4133 149.9332,-118.4133 156.9332,-118.4132"/>
+</g>
+<!-- tracking&#45;&gt;event_sourcing_middleware -->
+<g id="edge8" class="edge">
+<title>tracking&#45;&gt;event_sourcing_middleware</title>
+<path fill="none" stroke="#0000ff" d="M189.1582,-151.9129C228.6546,-140.761 293.1461,-122.5516 341.989,-108.7607"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="343.1751,-112.0627 351.8477,-105.977 341.2729,-105.3261 343.1751,-112.0627"/>
+</g>
+<!-- tracking&#45;&gt;messages_middleware -->
+<g id="edge9" class="edge">
+<title>tracking&#45;&gt;messages_middleware</title>
+<path fill="none" stroke="#0000ff" d="M119.6279,-150.7981C100.0234,-142.3592 76.988,-128.6475 65.4331,-108 57.6194,-94.0377 55.746,-84.7342 65.4331,-72 79.1792,-53.9299 128.7618,-40.3403 174.4854,-31.3137"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="175.3095,-34.7196 184.4723,-29.4005 173.9923,-27.8446 175.3095,-34.7196"/>
+</g>
+<!-- vehicle -->
+<g id="node7" class="node">
+<title>vehicle</title>
+<ellipse fill="none" stroke="#000000" cx="334.4331" cy="-162" rx="38.842" ry="18"/>
+<text text-anchor="middle" x="334.4331" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">vehicle</text>
+</g>
+<!-- vehicle&#45;&gt;distributed_cache -->
+<g id="edge10" class="edge">
+<title>vehicle&#45;&gt;distributed_cache</title>
+<path fill="none" stroke="#0000ff" d="M304.5446,-150.1107C276.7629,-139.0594 234.8776,-122.3978 202.2454,-109.4171"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="203.4603,-106.1336 192.8748,-105.6895 200.8729,-112.6379 203.4603,-106.1336"/>
+</g>
+<!-- vehicle&#45;&gt;database_sql -->
+<g id="edge11" class="edge">
+<title>vehicle&#45;&gt;database_sql</title>
+<path fill="none" stroke="#0000ff" d="M372.195,-157.4281C425.1955,-150.1469 517.4289,-134.0212 537.4331,-108 552.5415,-88.3471 537.5684,-62.2362 521.6383,-43.2023"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="524.0857,-40.6866 514.8374,-35.5176 518.8437,-45.3257 524.0857,-40.6866"/>
+</g>
+<!-- vehicle&#45;&gt;event_sourcing_middleware -->
+<g id="edge12" class="edge">
+<title>vehicle&#45;&gt;event_sourcing_middleware</title>
+<path fill="none" stroke="#0000ff" d="M351.2248,-145.6621C360.4896,-136.6477 372.193,-125.2607 382.5969,-115.1379"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="385.163,-117.5245 389.8896,-108.0423 380.2815,-112.5074 385.163,-117.5245"/>
+</g>
+<!-- vehicle&#45;&gt;messages_middleware -->
+<g id="edge13" class="edge">
+<title>vehicle&#45;&gt;messages_middleware</title>
+<path fill="none" stroke="#0000ff" d="M313.6533,-146.7196C301.8457,-136.9423 287.7932,-123.2555 279.4331,-108 269.0401,-89.035 264.3259,-64.9498 262.1907,-46.4684"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="265.6552,-45.9318 261.2081,-36.3155 258.6878,-46.6062 265.6552,-45.9318"/>
+</g>
+<!-- customer -->
+<g id="node8" class="node">
+<title>customer</title>
+<ellipse fill="none" stroke="#000000" cx="46.4331" cy="-162" rx="46.3662" ry="18"/>
+<text text-anchor="middle" x="46.4331" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">customer</text>
+</g>
+<!-- customer&#45;&gt;distributed_cache -->
+<g id="edge14" class="edge">
+<title>customer&#45;&gt;distributed_cache</title>
+<path fill="none" stroke="#0000ff" d="M69.6505,-146.3771C84.1713,-136.606 103.1301,-123.8487 119.3395,-112.9415"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="121.6736,-115.5895 128.0162,-107.1029 117.7657,-109.7819 121.6736,-115.5895"/>
+</g>
+<!-- customer&#45;&gt;database_sql -->
+<g id="edge15" class="edge">
+<title>customer&#45;&gt;database_sql</title>
+<path fill="none" stroke="#0000ff" d="M44.6061,-143.8248C43.6383,-123.2062 45.6335,-90.1039 65.4331,-72 115.3118,-26.3928 300.4053,-44.6705 367.4331,-36 388.4399,-33.2826 411.3451,-30.1439 431.9469,-27.256"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="432.4424,-30.7208 441.8571,-25.8614 431.4669,-23.7891 432.4424,-30.7208"/>
+</g>
+<!-- customer&#45;&gt;event_sourcing_middleware -->
+<g id="edge16" class="edge">
+<title>customer&#45;&gt;event_sourcing_middleware</title>
+<path fill="none" stroke="#0000ff" d="M81.1299,-149.8186C87.8182,-147.7059 94.8055,-145.6585 101.4331,-144 170.3087,-126.7649 249.2197,-113.0126 309.7905,-103.7"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="310.372,-107.1519 319.7311,-102.1862 309.3181,-100.2317 310.372,-107.1519"/>
+</g>
+<!-- customer&#45;&gt;messages_middleware -->
+<g id="edge17" class="edge">
+<title>customer&#45;&gt;messages_middleware</title>
+<path fill="none" stroke="#0000ff" d="M42.4727,-143.8255C39.2526,-123.8279 37.6271,-91.8904 54.4331,-72 70.0876,-53.4723 123.8108,-39.7513 172.4667,-30.777"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="173.2112,-34.1994 182.4367,-28.9897 171.976,-27.3092 173.2112,-34.1994"/>
+</g>
+</g>
+</svg>

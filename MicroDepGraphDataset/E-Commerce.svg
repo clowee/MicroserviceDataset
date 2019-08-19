@@ -1,0 +1,115 @@
+<svg width="736px" height="347px"
+ viewBox="0.00 0.00 551.75 260.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 256)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-256 547.7512,-256 547.7512,4 -4,4"/>
+<!-- configuration_microservice -->
+<g id="node1" class="node">
+<title>configuration_microservice</title>
+<ellipse fill="none" stroke="#000000" cx="324.8057" cy="-90" rx="117.5171" ry="18"/>
+<text text-anchor="middle" x="324.8057" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">configuration_microservice</text>
+</g>
+<!-- discovery_microservice -->
+<g id="node2" class="node">
+<title>discovery_microservice</title>
+<ellipse fill="none" stroke="#000000" cx="251.8057" cy="-18" rx="103.0501" ry="18"/>
+<text text-anchor="middle" x="251.8057" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">discovery_microservice</text>
+</g>
+<!-- configuration_microservice&#45;&gt;discovery_microservice -->
+<g id="edge1" class="edge">
+<title>configuration_microservice&#45;&gt;discovery_microservice</title>
+<path fill="none" stroke="#0000ff" d="M306.7608,-72.2022C297.8112,-63.3752 286.8527,-52.5669 277.0827,-42.9307"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="279.4736,-40.3728 269.8961,-35.8425 274.558,-45.3566 279.4736,-40.3728"/>
+</g>
+<!-- gateway_microservice -->
+<g id="node3" class="node">
+<title>gateway_microservice</title>
+<ellipse fill="none" stroke="#000000" cx="251.8057" cy="-162" rx="97.8112" ry="18"/>
+<text text-anchor="middle" x="251.8057" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">gateway_microservice</text>
+</g>
+<!-- gateway_microservice&#45;&gt;configuration_microservice -->
+<g id="edge2" class="edge">
+<title>gateway_microservice&#45;&gt;configuration_microservice</title>
+<path fill="none" stroke="#0000ff" d="M269.8507,-144.2022C278.8003,-135.3752 289.7588,-124.5669 299.5288,-114.9307"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="302.0535,-117.3566 306.7154,-107.8425 297.1379,-112.3728 302.0535,-117.3566"/>
+</g>
+<!-- gateway_microservice&#45;&gt;discovery_microservice -->
+<g id="edge3" class="edge">
+<title>gateway_microservice&#45;&gt;discovery_microservice</title>
+<path fill="none" stroke="#0000ff" d="M226.8674,-144.4427C215.7335,-135.0561 203.7927,-122.4539 197.8057,-108 191.6828,-93.2179 191.6828,-86.7821 197.8057,-72 202.4363,-60.8208 210.6284,-50.7493 219.2542,-42.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="221.7808,-44.8512 226.8674,-35.5573 217.0952,-39.6507 221.7808,-44.8512"/>
+</g>
+<!-- cart_microservice -->
+<g id="node4" class="node">
+<title>cart_microservice</title>
+<ellipse fill="none" stroke="#000000" cx="106.8057" cy="-234" rx="80.4112" ry="18"/>
+<text text-anchor="middle" x="106.8057" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">cart_microservice</text>
+</g>
+<!-- cart_microservice&#45;&gt;configuration_microservice -->
+<g id="edge4" class="edge">
+<title>cart_microservice&#45;&gt;configuration_microservice</title>
+<path fill="none" stroke="#0000ff" d="M109.7471,-215.7894C113.9771,-195.4533 123.7251,-162.9175 144.8057,-144 160.116,-130.2608 204.0187,-116.9544 244.6303,-106.9882"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="245.6865,-110.334 254.5909,-104.5927 244.0497,-103.5281 245.6865,-110.334"/>
+</g>
+<!-- cart_microservice&#45;&gt;discovery_microservice -->
+<g id="edge6" class="edge">
+<title>cart_microservice&#45;&gt;discovery_microservice</title>
+<path fill="none" stroke="#0000ff" d="M105.6468,-215.7799C105.196,-196.8748 106.6333,-166.9231 117.8057,-144 139.2901,-99.9196 183.2159,-63.3849 214.9295,-41.2045"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="217.2388,-43.8657 223.5217,-35.3348 213.2902,-38.0856 217.2388,-43.8657"/>
+</g>
+<!-- cart_microservice&#45;&gt;gateway_microservice -->
+<g id="edge5" class="edge">
+<title>cart_microservice&#45;&gt;gateway_microservice</title>
+<path fill="none" stroke="#0000ff" d="M140.0717,-217.4817C160.4101,-207.3827 186.6434,-194.3565 208.5796,-183.464"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="210.288,-186.5235 217.688,-178.9412 207.1748,-180.2539 210.288,-186.5235"/>
+</g>
+<!-- redis -->
+<g id="node5" class="node">
+<title>redis</title>
+<ellipse fill="none" stroke="#000000" cx="29.8057" cy="-162" rx="29.6127" ry="18"/>
+<text text-anchor="middle" x="29.8057" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">redis</text>
+</g>
+<!-- cart_microservice&#45;&gt;redis -->
+<g id="edge7" class="edge">
+<title>cart_microservice&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M87.772,-216.2022C77.4511,-206.5515 64.5973,-194.5323 53.6181,-184.2661"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="55.7126,-181.4329 46.0179,-177.1594 50.9317,-186.5459 55.7126,-181.4329"/>
+</g>
+<!-- product_catalog_microservice -->
+<g id="node6" class="node">
+<title>product_catalog_microservice</title>
+<ellipse fill="none" stroke="#000000" cx="415.8057" cy="-234" rx="127.8908" ry="18"/>
+<text text-anchor="middle" x="415.8057" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">product_catalog_microservice</text>
+</g>
+<!-- product_catalog_microservice&#45;&gt;configuration_microservice -->
+<g id="edge8" class="edge">
+<title>product_catalog_microservice&#45;&gt;configuration_microservice</title>
+<path fill="none" stroke="#0000ff" d="M404.4645,-216.0535C388.7295,-191.154 360.1501,-145.9295 341.8434,-116.9606"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="344.5908,-114.7565 336.2899,-108.1727 338.6733,-118.496 344.5908,-114.7565"/>
+</g>
+<!-- product_catalog_microservice&#45;&gt;discovery_microservice -->
+<g id="edge10" class="edge">
+<title>product_catalog_microservice&#45;&gt;discovery_microservice</title>
+<path fill="none" stroke="#0000ff" d="M466.2643,-217.4105C483.5126,-209.0467 500.931,-196.9716 510.8057,-180 518.8523,-166.1706 516.1904,-159.0667 510.8057,-144 496.8825,-105.0417 486.5467,-94.465 451.8057,-72 420.0589,-51.4712 380.6627,-38.6966 345.2516,-30.7695"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="345.8899,-27.3269 335.3792,-28.6597 344.427,-34.1723 345.8899,-27.3269"/>
+</g>
+<!-- product_catalog_microservice&#45;&gt;gateway_microservice -->
+<g id="edge9" class="edge">
+<title>product_catalog_microservice&#45;&gt;gateway_microservice</title>
+<path fill="none" stroke="#0000ff" d="M376.5237,-216.7542C353.2671,-206.544 323.6501,-193.5414 299.1139,-182.7694"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="300.2016,-179.4246 289.6382,-178.6094 297.3877,-185.8341 300.2016,-179.4246"/>
+</g>
+<!-- mongodb -->
+<g id="node7" class="node">
+<title>mongodb</title>
+<ellipse fill="none" stroke="#000000" cx="453.8057" cy="-162" rx="47.539" ry="18"/>
+<text text-anchor="middle" x="453.8057" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">mongodb</text>
+</g>
+<!-- product_catalog_microservice&#45;&gt;mongodb -->
+<g id="edge11" class="edge">
+<title>product_catalog_microservice&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M425.3948,-215.8314C429.7028,-207.6688 434.8744,-197.87 439.6176,-188.8827"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="442.7792,-190.3909 444.3514,-179.9134 436.5885,-187.1236 442.7792,-190.3909"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,133 @@
+<svg width="1225px" height="251px"
+ viewBox="0.00 0.00 918.73 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 184)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 914.7341,-184 914.7341,4 -4,4"/>
+<!-- discovery_server -->
+<g id="node1" class="node">
+<title>discovery_server</title>
+<ellipse fill="none" stroke="#000000" cx="444.3598" cy="-90" rx="76.9869" ry="18"/>
+<text text-anchor="middle" x="444.3598" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">discovery_server</text>
+</g>
+<!-- config_server -->
+<g id="node2" class="node">
+<title>config_server</title>
+<ellipse fill="none" stroke="#000000" cx="444.3598" cy="-18" rx="64.2456" ry="18"/>
+<text text-anchor="middle" x="444.3598" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">config_server</text>
+</g>
+<!-- discovery_server&#45;&gt;config_server -->
+<g id="edge1" class="edge">
+<title>discovery_server&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M444.3598,-71.8314C444.3598,-64.131 444.3598,-54.9743 444.3598,-46.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="447.8599,-46.4132 444.3598,-36.4133 440.8599,-46.4133 447.8599,-46.4132"/>
+</g>
+<!-- customers_service -->
+<g id="node3" class="node">
+<title>customers_service</title>
+<ellipse fill="none" stroke="#000000" cx="82.3598" cy="-162" rx="82.2198" ry="18"/>
+<text text-anchor="middle" x="82.3598" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">customers_service</text>
+</g>
+<!-- customers_service&#45;&gt;discovery_server -->
+<g id="edge3" class="edge">
+<title>customers_service&#45;&gt;discovery_server</title>
+<path fill="none" stroke="#0000ff" d="M143.3588,-149.8676C207.5648,-137.0973 308.4369,-117.0344 375.4687,-103.7021"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="376.3897,-107.0876 385.5148,-101.704 375.0241,-100.222 376.3897,-107.0876"/>
+</g>
+<!-- customers_service&#45;&gt;config_server -->
+<g id="edge2" class="edge">
+<title>customers_service&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M120.7919,-145.9385C164.6089,-127.7058 238.4468,-97.2211 302.3598,-72 333.5238,-59.7022 368.7219,-46.3136 396.2783,-35.9444"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="397.5573,-39.2028 405.6874,-32.4093 395.0953,-32.65 397.5573,-39.2028"/>
+</g>
+<!-- visits_service -->
+<g id="node4" class="node">
+<title>visits_service</title>
+<ellipse fill="none" stroke="#000000" cx="246.3598" cy="-162" rx="63.6967" ry="18"/>
+<text text-anchor="middle" x="246.3598" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">visits_service</text>
+</g>
+<!-- visits_service&#45;&gt;discovery_server -->
+<g id="edge5" class="edge">
+<title>visits_service&#45;&gt;discovery_server</title>
+<path fill="none" stroke="#0000ff" d="M285.4782,-147.7751C316.2511,-136.585 359.3884,-120.8987 392.9504,-108.6943"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="394.3866,-111.8964 402.5884,-105.1896 391.9943,-105.3178 394.3866,-111.8964"/>
+</g>
+<!-- visits_service&#45;&gt;config_server -->
+<g id="edge4" class="edge">
+<title>visits_service&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M264.2632,-144.6143C284.3173,-125.603 318.235,-94.8082 350.3598,-72 367.322,-59.9571 387.1603,-48.2469 404.2291,-38.8271"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="406.2798,-41.6959 413.3909,-33.842 402.9342,-35.5472 406.2798,-41.6959"/>
+</g>
+<!-- vets_service -->
+<g id="node5" class="node">
+<title>vets_service</title>
+<ellipse fill="none" stroke="#000000" cx="386.3598" cy="-162" rx="58.5251" ry="18"/>
+<text text-anchor="middle" x="386.3598" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">vets_service</text>
+</g>
+<!-- vets_service&#45;&gt;discovery_server -->
+<g id="edge7" class="edge">
+<title>vets_service&#45;&gt;discovery_server</title>
+<path fill="none" stroke="#0000ff" d="M400.6969,-144.2022C407.5984,-135.6348 416.0035,-125.2009 423.5894,-115.7839"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="426.439,-117.8258 429.9866,-107.8425 420.9877,-113.4344 426.439,-117.8258"/>
+</g>
+<!-- vets_service&#45;&gt;config_server -->
+<g id="edge6" class="edge">
+<title>vets_service&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M372.8492,-144.2389C360.3344,-125.4469 345.454,-95.3427 358.3598,-72 366.6955,-56.9232 381.1982,-45.4884 395.9452,-37.1119"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="397.8896,-40.0436 405.106,-32.2863 394.6272,-33.8503 397.8896,-40.0436"/>
+</g>
+<!-- api_gateway -->
+<g id="node6" class="node">
+<title>api_gateway</title>
+<ellipse fill="none" stroke="#000000" cx="523.3598" cy="-162" rx="59.6723" ry="18"/>
+<text text-anchor="middle" x="523.3598" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">api_gateway</text>
+</g>
+<!-- api_gateway&#45;&gt;discovery_server -->
+<g id="edge9" class="edge">
+<title>api_gateway&#45;&gt;discovery_server</title>
+<path fill="none" stroke="#0000ff" d="M504.2361,-144.5708C494.3148,-135.5286 482.0317,-124.3338 471.1777,-114.4417"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="473.3298,-111.6675 463.5812,-107.5182 468.6145,-116.8411 473.3298,-111.6675"/>
+</g>
+<!-- api_gateway&#45;&gt;config_server -->
+<g id="edge8" class="edge">
+<title>api_gateway&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M530.3538,-143.8483C536.5025,-124.7302 542.7202,-94.3562 530.3598,-72 522.0241,-56.9232 507.5214,-45.4884 492.7744,-37.1119"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="494.0924,-33.8503 483.6136,-32.2863 490.83,-40.0436 494.0924,-33.8503"/>
+</g>
+<!-- admin_server -->
+<g id="node7" class="node">
+<title>admin_server</title>
+<ellipse fill="none" stroke="#000000" cx="664.3598" cy="-162" rx="63.6832" ry="18"/>
+<text text-anchor="middle" x="664.3598" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">admin_server</text>
+</g>
+<!-- admin_server&#45;&gt;discovery_server -->
+<g id="edge11" class="edge">
+<title>admin_server&#45;&gt;discovery_server</title>
+<path fill="none" stroke="#0000ff" d="M622.7208,-148.3727C587.7291,-136.9209 537.4466,-120.4648 499.1837,-107.9424"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="499.8261,-104.47 489.2334,-104.6859 497.6487,-111.1228 499.8261,-104.47"/>
+</g>
+<!-- admin_server&#45;&gt;config_server -->
+<g id="edge10" class="edge">
+<title>admin_server&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M644.2355,-144.5633C621.7317,-125.5075 583.7823,-94.6738 548.3598,-72 528.9226,-59.5583 506.2907,-47.5399 487.1119,-38.0125"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="488.5228,-34.8062 478.0033,-33.5446 485.44,-41.0909 488.5228,-34.8062"/>
+</g>
+<!-- hystrix_dashboard -->
+<g id="node8" class="node">
+<title>hystrix_dashboard</title>
+<ellipse fill="none" stroke="#000000" cx="828.3598" cy="-162" rx="82.2488" ry="18"/>
+<text text-anchor="middle" x="828.3598" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">hystrix_dashboard</text>
+</g>
+<!-- hystrix_dashboard&#45;&gt;discovery_server -->
+<g id="edge13" class="edge">
+<title>hystrix_dashboard&#45;&gt;discovery_server</title>
+<path fill="none" stroke="#0000ff" d="M767.194,-149.7877C757.2268,-147.8304 747.0092,-145.8434 737.3598,-144 661.7165,-129.5489 574.9539,-113.6417 515.5917,-102.8602"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="516.036,-99.3837 505.5717,-101.0418 514.786,-106.2712 516.036,-99.3837"/>
+</g>
+<!-- hystrix_dashboard&#45;&gt;config_server -->
+<g id="edge12" class="edge">
+<title>hystrix_dashboard&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M786.5341,-146.3154C714.8191,-119.4222 568.7888,-64.6609 492.7797,-36.1575"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="493.5705,-32.7161 482.9783,-32.4819 491.1126,-39.2704 493.5705,-32.7161"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,217 @@
+<svg width="920px" height="539px"
+ viewBox="0.00 0.00 690.00 404.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 400)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-400 686,-400 686,4 -4,4"/>
+<!-- config_server -->
+<g id="node1" class="node">
+<title>config_server</title>
+<ellipse fill="none" stroke="#000000" cx="514" cy="-90" rx="64.2456" ry="18"/>
+<text text-anchor="middle" x="514" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">config_server</text>
+</g>
+<!-- eureka_server -->
+<g id="node2" class="node">
+<title>eureka_server</title>
+<ellipse fill="none" stroke="#000000" cx="131" cy="-18" rx="65.3684" ry="18"/>
+<text text-anchor="middle" x="131" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">eureka_server</text>
+</g>
+<!-- config_server&#45;&gt;eureka_server -->
+<g id="edge1" class="edge">
+<title>config_server&#45;&gt;eureka_server</title>
+<path fill="none" stroke="#0000ff" d="M466.5949,-77.8056C458.0962,-75.7638 449.3033,-73.7447 441,-72 357.8187,-54.5219 261.239,-38.3424 198.2728,-28.3392"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="198.5014,-24.8319 188.0774,-26.7268 197.4079,-31.746 198.5014,-24.8319"/>
+</g>
+<!-- rabbitmq -->
+<g id="node3" class="node">
+<title>rabbitmq</title>
+<ellipse fill="none" stroke="#000000" cx="606" cy="-18" rx="45.806" ry="18"/>
+<text text-anchor="middle" x="606" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">rabbitmq</text>
+</g>
+<!-- config_server&#45;&gt;rabbitmq -->
+<g id="edge2" class="edge">
+<title>config_server&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M535.8027,-72.937C548.2116,-63.2257 563.9047,-50.9441 577.3044,-40.4574"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="579.5835,-43.1183 585.3015,-34.1989 575.2693,-37.6057 579.5835,-43.1183"/>
+</g>
+<!-- service_b -->
+<g id="node4" class="node">
+<title>service_b</title>
+<ellipse fill="none" stroke="#000000" cx="321" cy="-162" rx="48.0723" ry="18"/>
+<text text-anchor="middle" x="321" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">service_b</text>
+</g>
+<!-- service_b&#45;&gt;config_server -->
+<g id="edge3" class="edge">
+<title>service_b&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M355.0603,-149.2936C385.8231,-137.8173 431.4221,-120.8063 465.8992,-107.9443"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="467.1611,-111.2093 475.307,-104.4347 464.7144,-104.6508 467.1611,-111.2093"/>
+</g>
+<!-- service_b&#45;&gt;eureka_server -->
+<g id="edge6" class="edge">
+<title>service_b&#45;&gt;eureka_server</title>
+<path fill="none" stroke="#0000ff" d="M316.555,-143.9937C310.7037,-123.8451 298.5433,-91.481 277,-72 254.4162,-51.5782 223.4328,-38.6726 195.817,-30.6228"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="196.3871,-27.1497 185.8169,-27.8719 194.5304,-33.899 196.3871,-27.1497"/>
+</g>
+<!-- service_b&#45;&gt;rabbitmq -->
+<g id="edge7" class="edge">
+<title>service_b&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M322.3175,-143.9173C324.8155,-123.3855 332.0499,-90.3648 353,-72 381.973,-46.6024 485.7502,-30.9927 551.0503,-23.4589"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="551.6368,-26.9151 561.1828,-22.3189 550.8541,-19.959 551.6368,-26.9151"/>
+</g>
+<!-- zipkin -->
+<g id="node5" class="node">
+<title>zipkin</title>
+<ellipse fill="none" stroke="#000000" cx="397" cy="-90" rx="35.3528" ry="18"/>
+<text text-anchor="middle" x="397" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">zipkin</text>
+</g>
+<!-- service_b&#45;&gt;zipkin -->
+<g id="edge4" class="edge">
+<title>service_b&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M339.0109,-144.937C349.1397,-135.3413 361.9172,-123.2363 372.8987,-112.8328"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="375.3072,-115.3723 380.1597,-105.954 370.493,-110.2906 375.3072,-115.3723"/>
+</g>
+<!-- hystrix_dashboard -->
+<g id="node6" class="node">
+<title>hystrix_dashboard</title>
+<ellipse fill="none" stroke="#000000" cx="186" cy="-90" rx="82.2488" ry="18"/>
+<text text-anchor="middle" x="186" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">hystrix_dashboard</text>
+</g>
+<!-- service_b&#45;&gt;hystrix_dashboard -->
+<g id="edge5" class="edge">
+<title>service_b&#45;&gt;hystrix_dashboard</title>
+<path fill="none" stroke="#0000ff" d="M293.355,-147.256C274.0505,-136.9603 247.9703,-123.0508 226.3496,-111.5198"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="227.86,-108.3587 217.3894,-106.741 224.5659,-114.5352 227.86,-108.3587"/>
+</g>
+<!-- hystrix_dashboard&#45;&gt;eureka_server -->
+<g id="edge8" class="edge">
+<title>hystrix_dashboard&#45;&gt;eureka_server</title>
+<path fill="none" stroke="#0000ff" d="M172.4045,-72.2022C165.926,-63.7214 158.0505,-53.4115 150.9143,-44.0696"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="153.4815,-41.6646 144.6297,-35.8425 147.9188,-45.9139 153.4815,-41.6646"/>
+</g>
+<!-- service_a -->
+<g id="node7" class="node">
+<title>service_a</title>
+<ellipse fill="none" stroke="#000000" cx="397" cy="-234" rx="47.4887" ry="18"/>
+<text text-anchor="middle" x="397" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">service_a</text>
+</g>
+<!-- service_a&#45;&gt;config_server -->
+<g id="edge9" class="edge">
+<title>service_a&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M411.1129,-216.6302C431.4698,-191.5756 469.2228,-145.1104 492.9,-115.9692"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="495.8804,-117.8513 499.47,-107.8831 490.4476,-113.4372 495.8804,-117.8513"/>
+</g>
+<!-- service_a&#45;&gt;eureka_server -->
+<g id="edge13" class="edge">
+<title>service_a&#45;&gt;eureka_server</title>
+<path fill="none" stroke="#0000ff" d="M350.138,-230.9985C279.2558,-223.5676 147.4858,-197.7427 95,-108 82.991,-87.4664 95.2191,-62.1695 108.5803,-43.6297"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="111.4083,-45.6935 114.716,-35.6282 105.8535,-41.4339 111.4083,-45.6935"/>
+</g>
+<!-- service_a&#45;&gt;rabbitmq -->
+<g id="edge14" class="edge">
+<title>service_a&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M430.7102,-221.1921C474.0105,-202.9226 548.1932,-165.1346 587,-108 599.3585,-89.8049 603.9186,-65.1362 605.4943,-46.2269"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="608.9953,-46.3146 606.1036,-36.1221 602.0079,-45.8933 608.9953,-46.3146"/>
+</g>
+<!-- service_a&#45;&gt;service_b -->
+<g id="edge11" class="edge">
+<title>service_a&#45;&gt;service_b</title>
+<path fill="none" stroke="#0000ff" d="M378.9891,-216.937C369.2403,-207.7013 357.0377,-196.141 346.3445,-186.0106"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="348.5483,-183.2771 338.8817,-178.9405 343.7341,-188.3588 348.5483,-183.2771"/>
+</g>
+<!-- service_a&#45;&gt;zipkin -->
+<g id="edge10" class="edge">
+<title>service_a&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M397,-215.7623C397,-191.201 397,-147.2474 397,-118.3541"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="400.5001,-118.0896 397,-108.0896 393.5001,-118.0897 400.5001,-118.0896"/>
+</g>
+<!-- service_a&#45;&gt;hystrix_dashboard -->
+<g id="edge12" class="edge">
+<title>service_a&#45;&gt;hystrix_dashboard</title>
+<path fill="none" stroke="#0000ff" d="M358.1907,-223.5725C330.2846,-214.8566 292.6754,-200.5233 264,-180 239.687,-162.5989 217.9541,-136.1408 203.6437,-116.4094"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="206.4274,-114.284 197.794,-108.1427 200.7133,-118.3274 206.4274,-114.284"/>
+</g>
+<!-- admin_dashboard -->
+<g id="node8" class="node">
+<title>admin_dashboard</title>
+<ellipse fill="none" stroke="#000000" cx="397" cy="-378" rx="79.8817" ry="18"/>
+<text text-anchor="middle" x="397" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">admin_dashboard</text>
+</g>
+<!-- admin_dashboard&#45;&gt;config_server -->
+<g id="edge15" class="edge">
+<title>admin_dashboard&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M445.5507,-363.6749C465.5301,-355.3071 486.9961,-342.6235 500,-324 543.6473,-261.4908 530.9122,-165.1632 520.9397,-117.984"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="524.3416,-117.1579 518.7501,-108.1587 517.5092,-118.6806 524.3416,-117.1579"/>
+</g>
+<!-- admin_dashboard&#45;&gt;eureka_server -->
+<g id="edge20" class="edge">
+<title>admin_dashboard&#45;&gt;eureka_server</title>
+<path fill="none" stroke="#0000ff" d="M330.5511,-367.9604C217.5349,-348.9954 0,-303.4684 0,-234 0,-234 0,-234 0,-162 0,-106.9318 53.0681,-63.6282 91.6513,-39.4216"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="93.8896,-42.157 100.6167,-33.9718 90.2535,-36.1754 93.8896,-42.157"/>
+</g>
+<!-- admin_dashboard&#45;&gt;rabbitmq -->
+<g id="edge21" class="edge">
+<title>admin_dashboard&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M472.2532,-372.0226C556.6904,-360.7237 682,-328.1032 682,-234 682,-234 682,-234 682,-162 682,-115.8874 651.1415,-70.0726 628.751,-42.8994"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="631.2575,-40.4437 622.1176,-35.0851 625.9209,-44.9737 631.2575,-40.4437"/>
+</g>
+<!-- admin_dashboard&#45;&gt;service_b -->
+<g id="edge17" class="edge">
+<title>admin_dashboard&#45;&gt;service_b</title>
+<path fill="none" stroke="#0000ff" d="M387.668,-360.0889C375.4688,-336.0567 354.116,-291.7856 341,-252 334.2973,-231.6681 329.1391,-208.0146 325.7411,-190.0601"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="329.1831,-189.4252 323.9454,-180.2156 322.2967,-190.6814 329.1831,-189.4252"/>
+</g>
+<!-- admin_dashboard&#45;&gt;hystrix_dashboard -->
+<g id="edge18" class="edge">
+<title>admin_dashboard&#45;&gt;hystrix_dashboard</title>
+<path fill="none" stroke="#0000ff" d="M377.6858,-360.2937C342.878,-327.5438 268.9751,-254.0684 223,-180 210.8219,-160.3804 201.1002,-136.0542 194.6836,-117.6407"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="197.9743,-116.4455 191.4643,-108.0867 191.3408,-118.6808 197.9743,-116.4455"/>
+</g>
+<!-- admin_dashboard&#45;&gt;service_a -->
+<g id="edge16" class="edge">
+<title>admin_dashboard&#45;&gt;service_a</title>
+<path fill="none" stroke="#0000ff" d="M397,-359.7623C397,-335.201 397,-291.2474 397,-262.3541"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="400.5001,-262.0896 397,-252.0896 393.5001,-262.0897 400.5001,-262.0896"/>
+</g>
+<!-- zuul -->
+<g id="node9" class="node">
+<title>zuul</title>
+<ellipse fill="none" stroke="#000000" cx="463" cy="-306" rx="27.8286" ry="18"/>
+<text text-anchor="middle" x="463" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">zuul</text>
+</g>
+<!-- admin_dashboard&#45;&gt;zuul -->
+<g id="edge19" class="edge">
+<title>admin_dashboard&#45;&gt;zuul</title>
+<path fill="none" stroke="#0000ff" d="M413.3146,-360.2022C421.8689,-350.8703 432.4531,-339.3239 441.6516,-329.2892"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="444.489,-331.3734 448.6663,-321.6368 439.3289,-326.6433 444.489,-331.3734"/>
+</g>
+<!-- zuul&#45;&gt;config_server -->
+<g id="edge22" class="edge">
+<title>zuul&#45;&gt;config_server</title>
+<path fill="none" stroke="#0000ff" d="M471.9315,-288.916C477.0357,-278.4992 483.1647,-264.7736 487,-252 500.702,-206.3648 508.0204,-151.2785 511.4507,-118.5255"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="514.9588,-118.618 512.4686,-108.32 507.9934,-117.9232 514.9588,-118.618"/>
+</g>
+<!-- zuul&#45;&gt;eureka_server -->
+<g id="edge25" class="edge">
+<title>zuul&#45;&gt;eureka_server</title>
+<path fill="none" stroke="#0000ff" d="M435.5618,-302.846C372.6118,-294.2743 216.011,-265.1759 122,-180 84.6073,-146.1214 70.0848,-119.5379 87,-72 90.7481,-61.4665 97.5277,-51.4983 104.6603,-43.0608"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="107.4107,-45.2376 111.5196,-35.4719 102.2176,-40.5437 107.4107,-45.2376"/>
+</g>
+<!-- zuul&#45;&gt;rabbitmq -->
+<g id="edge26" class="edge">
+<title>zuul&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M479.2038,-291.3408C511.4094,-260.9611 582.5537,-187.3146 608,-108 614.4258,-87.9713 613.5424,-64.1269 611.259,-46.0145"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="614.7165,-45.4685 609.7975,-36.0848 607.7911,-46.4879 614.7165,-45.4685"/>
+</g>
+<!-- zuul&#45;&gt;zipkin -->
+<g id="edge23" class="edge">
+<title>zuul&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M462.6095,-287.7663C461.8371,-269.3659 459.5744,-240.2795 453,-216 443.2786,-180.0989 424.7291,-141.3626 411.6486,-116.4574"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="414.561,-114.481 406.7622,-107.3096 408.3866,-117.7791 414.561,-114.481"/>
+</g>
+<!-- zuul&#45;&gt;service_a -->
+<g id="edge24" class="edge">
+<title>zuul&#45;&gt;service_a</title>
+<path fill="none" stroke="#0000ff" d="M448.679,-290.3771C440.2198,-281.1489 429.3189,-269.257 419.711,-258.7757"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="422.015,-256.1095 412.6777,-251.1029 416.8549,-260.8395 422.015,-256.1095"/>
+</g>
+</g>
+</svg>

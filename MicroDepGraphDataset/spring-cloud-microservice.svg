@@ -1,0 +1,223 @@
+<svg width="1019px" height="539px"
+ viewBox="0.00 0.00 764.00 404.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 400)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-400 760,-400 760,4 -4,4"/>
+<!-- hystrix -->
+<g id="node1" class="node">
+<title>hystrix</title>
+<ellipse fill="none" stroke="#000000" cx="327" cy="-378" rx="37.7198" ry="18"/>
+<text text-anchor="middle" x="327" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">hystrix</text>
+</g>
+<!-- discovery -->
+<g id="node2" class="node">
+<title>discovery</title>
+<ellipse fill="none" stroke="#000000" cx="480" cy="-18" rx="48.6559" ry="18"/>
+<text text-anchor="middle" x="480" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">discovery</text>
+</g>
+<!-- hystrix&#45;&gt;discovery -->
+<g id="edge1" class="edge">
+<title>hystrix&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M292.3149,-370.492C208.1574,-351.2778 0,-297.3498 0,-234 0,-234 0,-234 0,-162 0,-74.7502 294.6362,-35.8248 422.2313,-23.0584"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="422.6105,-26.5381 432.2209,-22.0784 421.9269,-19.5716 422.6105,-26.5381"/>
+</g>
+<!-- gateway -->
+<g id="node3" class="node">
+<title>gateway</title>
+<ellipse fill="none" stroke="#000000" cx="467" cy="-306" rx="43.4183" ry="18"/>
+<text text-anchor="middle" x="467" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">gateway</text>
+</g>
+<!-- hystrix&#45;&gt;gateway -->
+<g id="edge2" class="edge">
+<title>hystrix&#45;&gt;gateway</title>
+<path fill="none" stroke="#0000ff" d="M353.0048,-364.6261C374.8817,-353.3751 406.3999,-337.1658 430.7527,-324.6415"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="432.4081,-327.7259 439.7003,-320.0399 429.2066,-321.5009 432.4081,-327.7259"/>
+</g>
+<!-- gateway&#45;&gt;discovery -->
+<g id="edge7" class="edge">
+<title>gateway&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M509.1306,-301.4489C565.3034,-294.413 660.1014,-278.8272 681,-252 729.3641,-189.9159 687.2875,-160.1579 589,-72 570.6633,-55.5531 546.409,-42.8836 525.4357,-33.9634"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="526.6439,-30.6762 516.0632,-30.1288 523.9931,-37.1549 526.6439,-30.6762"/>
+</g>
+<!-- simple_ui -->
+<g id="node4" class="node">
+<title>simple_ui</title>
+<ellipse fill="none" stroke="#000000" cx="603" cy="-234" rx="49.2551" ry="18"/>
+<text text-anchor="middle" x="603" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">simple_ui</text>
+</g>
+<!-- gateway&#45;&gt;simple_ui -->
+<g id="edge3" class="edge">
+<title>gateway&#45;&gt;simple_ui</title>
+<path fill="none" stroke="#0000ff" d="M493.8692,-291.7751C514.4165,-280.8972 542.9892,-265.7704 565.7442,-253.7237"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="567.5818,-256.7111 574.782,-248.9389 564.3065,-250.5246 567.5818,-256.7111"/>
+</g>
+<!-- simple_service2 -->
+<g id="node5" class="node">
+<title>simple_service2</title>
+<ellipse fill="none" stroke="#000000" cx="102" cy="-234" rx="73.5734" ry="18"/>
+<text text-anchor="middle" x="102" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">simple_service2</text>
+</g>
+<!-- gateway&#45;&gt;simple_service2 -->
+<g id="edge4" class="edge">
+<title>gateway&#45;&gt;simple_service2</title>
+<path fill="none" stroke="#0000ff" d="M427.2437,-298.7028C372.5879,-288.5988 271.2035,-269.5982 185,-252 179.1694,-250.8097 173.1143,-249.5473 167.0504,-248.2652"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="167.3848,-244.758 156.875,-246.098 165.9265,-251.6044 167.3848,-244.758"/>
+</g>
+<!-- simple_serviceb -->
+<g id="node6" class="node">
+<title>simple_serviceb</title>
+<ellipse fill="none" stroke="#000000" cx="268" cy="-234" rx="73.5734" ry="18"/>
+<text text-anchor="middle" x="268" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">simple_serviceb</text>
+</g>
+<!-- gateway&#45;&gt;simple_serviceb -->
+<g id="edge5" class="edge">
+<title>gateway&#45;&gt;simple_serviceb</title>
+<path fill="none" stroke="#0000ff" d="M434.1392,-294.1107C402.8258,-282.7812 355.2158,-265.5555 318.977,-252.444"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="320.1484,-249.1458 309.5541,-249.0347 317.7668,-255.7282 320.1484,-249.1458"/>
+</g>
+<!-- zipkin -->
+<g id="node7" class="node">
+<title>zipkin</title>
+<ellipse fill="none" stroke="#000000" cx="405" cy="-162" rx="35.3528" ry="18"/>
+<text text-anchor="middle" x="405" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">zipkin</text>
+</g>
+<!-- gateway&#45;&gt;zipkin -->
+<g id="edge6" class="edge">
+<title>gateway&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M435.7374,-293.2115C418.5895,-284.3845 398.8607,-270.8198 389,-252 378.761,-232.4581 384.3603,-207.6006 391.6158,-188.963"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="394.9118,-190.156 395.6059,-179.5839 388.4705,-187.4156 394.9118,-190.156"/>
+</g>
+<!-- configserver -->
+<g id="node8" class="node">
+<title>configserver</title>
+<ellipse fill="none" stroke="#000000" cx="480" cy="-90" rx="59.0891" ry="18"/>
+<text text-anchor="middle" x="480" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">configserver</text>
+</g>
+<!-- gateway&#45;&gt;configserver -->
+<g id="edge8" class="edge">
+<title>gateway&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M508.2987,-300.383C559.5899,-292.4626 642.6009,-276.22 661,-252 707.38,-190.9469 596.5919,-134.9045 528.4814,-107.549"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="529.3528,-104.1307 518.7658,-103.724 526.7884,-110.6441 529.3528,-104.1307"/>
+</g>
+<!-- simple_service -->
+<g id="node9" class="node">
+<title>simple_service</title>
+<ellipse fill="none" stroke="#000000" cx="467" cy="-234" rx="68.9158" ry="18"/>
+<text text-anchor="middle" x="467" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">simple_service</text>
+</g>
+<!-- gateway&#45;&gt;simple_service -->
+<g id="edge9" class="edge">
+<title>gateway&#45;&gt;simple_service</title>
+<path fill="none" stroke="#0000ff" d="M467,-287.8314C467,-280.131 467,-270.9743 467,-262.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="470.5001,-262.4132 467,-252.4133 463.5001,-262.4133 470.5001,-262.4132"/>
+</g>
+<!-- simple_ui&#45;&gt;discovery -->
+<g id="edge11" class="edge">
+<title>simple_ui&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M603.0571,-215.9196C602.2919,-183.9542 596.7016,-116.6303 565,-72 554.167,-56.749 537.5404,-44.8132 521.8557,-36.0856"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="523.261,-32.8703 512.7806,-31.3168 520.0048,-39.0668 523.261,-32.8703"/>
+</g>
+<!-- simple_ui&#45;&gt;zipkin -->
+<g id="edge10" class="edge">
+<title>simple_ui&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M568.0574,-221.2936C533.1487,-208.5995 479.6182,-189.1339 443.5048,-176.0017"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="444.4048,-172.6049 433.8108,-172.4766 442.0126,-179.1834 444.4048,-172.6049"/>
+</g>
+<!-- simple_ui&#45;&gt;configserver -->
+<g id="edge12" class="edge">
+<title>simple_ui&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M576.8337,-218.5994C561.8483,-208.8743 543.4168,-195.2819 530,-180 513.5306,-161.2412 500.1501,-136.165 491.3897,-117.2467"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="494.5211,-115.6756 487.2378,-107.9811 488.1331,-118.5381 494.5211,-115.6756"/>
+</g>
+<!-- simple_service2&#45;&gt;discovery -->
+<g id="edge17" class="edge">
+<title>simple_service2&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M125.2837,-216.9142C168.5071,-185.6576 264.7062,-118.2362 352,-72 379.001,-57.6986 410.6239,-44.3278 435.6822,-34.4687"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="437.2358,-37.62 445.2879,-30.7342 434.6993,-31.0957 437.2358,-37.62"/>
+</g>
+<!-- simple_service2&#45;&gt;zipkin -->
+<g id="edge16" class="edge">
+<title>simple_service2&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M155.1253,-221.3762C214.2807,-207.3194 308.6901,-184.8855 362.9434,-171.9936"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="363.9926,-175.3419 372.9125,-169.6247 362.3743,-168.5315 363.9926,-175.3419"/>
+</g>
+<!-- simple_service2&#45;&gt;configserver -->
+<g id="edge18" class="edge">
+<title>simple_service2&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M138.3508,-218.1292C181.3907,-199.5397 255.3931,-168.2086 320,-144 356.1674,-130.4479 397.4831,-116.5432 429.07,-106.2378"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="430.5354,-109.4419 438.9647,-103.0234 428.3726,-102.7844 430.5354,-109.4419"/>
+</g>
+<!-- simple_serviceb&#45;&gt;discovery -->
+<g id="edge20" class="edge">
+<title>simple_serviceb&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M276.2987,-216.0683C285.5168,-197.1339 301.5544,-166.9119 320,-144 355.7702,-99.5685 409.9984,-61.0982 445.2149,-38.7211"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="447.1183,-41.6588 453.7358,-33.3849 443.4029,-35.7261 447.1183,-41.6588"/>
+</g>
+<!-- simple_serviceb&#45;&gt;zipkin -->
+<g id="edge19" class="edge">
+<title>simple_serviceb&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M299.0874,-217.6621C320.6399,-206.3352 349.3202,-191.2624 371.3997,-179.6586"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="373.1945,-182.6693 380.4182,-174.9189 369.9379,-176.4729 373.1945,-182.6693"/>
+</g>
+<!-- simple_serviceb&#45;&gt;configserver -->
+<g id="edge21" class="edge">
+<title>simple_serviceb&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M284.7808,-216.3848C306.8264,-193.4912 344.6535,-155.1234 361,-144 382.828,-129.1466 409.402,-116.6384 431.8963,-107.4127"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="433.279,-110.6293 441.2611,-103.6625 430.6767,-104.1309 433.279,-110.6293"/>
+</g>
+<!-- zipkin&#45;&gt;discovery -->
+<g id="edge13" class="edge">
+<title>zipkin&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M402.3525,-143.9275C400.4494,-124.8754 400.0083,-94.5561 412,-72 419.1872,-58.481 431.3744,-47.1895 443.4632,-38.4859"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="445.4316,-41.3799 451.7539,-32.8782 441.5098,-35.5817 445.4316,-41.3799"/>
+</g>
+<!-- zipkin&#45;&gt;configserver -->
+<g id="edge14" class="edge">
+<title>zipkin&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M421.6449,-146.0209C431.3927,-136.663 443.897,-124.6588 454.8287,-114.1645"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="457.3022,-116.6417 462.0922,-107.1915 452.4545,-111.5919 457.3022,-116.6417"/>
+</g>
+<!-- configserver&#45;&gt;discovery -->
+<g id="edge15" class="edge">
+<title>configserver&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M480,-71.8314C480,-64.131 480,-54.9743 480,-46.4166"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="483.5001,-46.4132 480,-36.4133 476.5001,-46.4133 483.5001,-46.4132"/>
+</g>
+<!-- simple_service&#45;&gt;discovery -->
+<g id="edge23" class="edge">
+<title>simple_service&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M483.0245,-216.4664C502.7881,-193.532 535.3221,-151.1657 548,-108 552.5088,-92.6484 554.9569,-86.4084 548,-72 541.3427,-58.2123 529.265,-46.8653 517.1154,-38.1925"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="519.0199,-35.2557 508.7585,-32.6184 515.1356,-41.0791 519.0199,-35.2557"/>
+</g>
+<!-- simple_service&#45;&gt;zipkin -->
+<g id="edge22" class="edge">
+<title>simple_service&#45;&gt;zipkin</title>
+<path fill="none" stroke="#0000ff" d="M451.6742,-216.2022C443.942,-207.223 434.4443,-196.1934 426.0396,-186.4331"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="428.4769,-183.8997 419.2995,-178.6058 423.1725,-188.4674 428.4769,-183.8997"/>
+</g>
+<!-- simple_service&#45;&gt;configserver -->
+<g id="edge24" class="edge">
+<title>simple_service&#45;&gt;configserver</title>
+<path fill="none" stroke="#0000ff" d="M468.6465,-215.7623C470.8638,-191.201 474.8318,-147.2474 477.4403,-118.3541"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="480.9535,-118.3638 478.3669,-108.0896 473.9819,-117.7344 480.9535,-118.3638"/>
+</g>
+<!-- turbine -->
+<g id="node10" class="node">
+<title>turbine</title>
+<ellipse fill="none" stroke="#000000" cx="607" cy="-378" rx="38.2818" ry="18"/>
+<text text-anchor="middle" x="607" y="-373.8" font-family="Times,serif" font-size="14.00" fill="#000000">turbine</text>
+</g>
+<!-- turbine&#45;&gt;discovery -->
+<g id="edge25" class="edge">
+<title>turbine&#45;&gt;discovery</title>
+<path fill="none" stroke="#0000ff" d="M635.7287,-365.9432C679.0264,-345.6241 756,-300.1929 756,-234 756,-234 756,-234 756,-162 756,-64.4308 618.7469,-32.8611 537.8199,-22.7269"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="538.1015,-19.236 527.7604,-21.5408 537.2817,-26.1878 538.1015,-19.236"/>
+</g>
+<!-- turbine&#45;&gt;gateway -->
+<g id="edge26" class="edge">
+<title>turbine&#45;&gt;gateway</title>
+<path fill="none" stroke="#0000ff" d="M580.9952,-364.6261C559.1183,-353.3751 527.6001,-337.1658 503.2473,-324.6415"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="504.7934,-321.5009 494.2997,-320.0399 501.5919,-327.7259 504.7934,-321.5009"/>
+</g>
+</g>
+</svg>

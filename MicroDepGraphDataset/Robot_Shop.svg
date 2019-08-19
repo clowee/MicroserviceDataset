@@ -1,0 +1,151 @@
+<svg width="879px" height="251px"
+ viewBox="0.00 0.00 659.22 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 184)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 655.2183,-184 655.2183,4 -4,4"/>
+<!-- catalogue -->
+<g id="node1" class="node">
+<title>catalogue</title>
+<ellipse fill="none" stroke="#000000" cx="192" cy="-90" rx="48.0723" ry="18"/>
+<text text-anchor="middle" x="192" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">catalogue</text>
+</g>
+<!-- mongodb -->
+<g id="node2" class="node">
+<title>mongodb</title>
+<ellipse fill="none" stroke="#000000" cx="157" cy="-18" rx="47.539" ry="18"/>
+<text text-anchor="middle" x="157" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">mongodb</text>
+</g>
+<!-- catalogue&#45;&gt;mongodb -->
+<g id="edge1" class="edge">
+<title>catalogue&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M183.3483,-72.2022C179.3519,-63.981 174.5199,-54.041 170.091,-44.9301"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="173.1932,-43.306 165.6735,-35.8425 166.8977,-46.3664 173.1932,-43.306"/>
+</g>
+<!-- user -->
+<g id="node3" class="node">
+<title>user</title>
+<ellipse fill="none" stroke="#000000" cx="99" cy="-90" rx="27.2447" ry="18"/>
+<text text-anchor="middle" x="99" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">user</text>
+</g>
+<!-- user&#45;&gt;mongodb -->
+<g id="edge2" class="edge">
+<title>user&#45;&gt;mongodb</title>
+<path fill="none" stroke="#0000ff" d="M111.8721,-74.0209C119.1402,-64.9983 128.3901,-53.5157 136.6209,-43.2982"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="139.3983,-45.4296 142.9459,-35.4464 133.947,-41.0383 139.3983,-45.4296"/>
+</g>
+<!-- redis -->
+<g id="node4" class="node">
+<title>redis</title>
+<ellipse fill="none" stroke="#000000" cx="45" cy="-18" rx="29.6127" ry="18"/>
+<text text-anchor="middle" x="45" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">redis</text>
+</g>
+<!-- user&#45;&gt;redis -->
+<g id="edge3" class="edge">
+<title>user&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M86.7466,-73.6621C79.9396,-64.5861 71.3287,-53.1049 63.6979,-42.9306"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="66.3797,-40.6729 57.5797,-34.7729 60.7797,-44.8729 66.3797,-40.6729"/>
+</g>
+<!-- cart -->
+<g id="node5" class="node">
+<title>cart</title>
+<ellipse fill="none" stroke="#000000" cx="27" cy="-90" rx="27" ry="18"/>
+<text text-anchor="middle" x="27" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">cart</text>
+</g>
+<!-- cart&#45;&gt;redis -->
+<g id="edge4" class="edge">
+<title>cart&#45;&gt;redis</title>
+<path fill="none" stroke="#0000ff" d="M31.4494,-72.2022C33.4398,-64.2406 35.8332,-54.6671 38.0511,-45.7957"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="41.5094,-46.3929 40.5394,-35.8425 34.7184,-44.6951 41.5094,-46.3929"/>
+</g>
+<!-- shipping -->
+<g id="node6" class="node">
+<title>shipping</title>
+<ellipse fill="none" stroke="#000000" cx="302" cy="-90" rx="44.1045" ry="18"/>
+<text text-anchor="middle" x="302" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">shipping</text>
+</g>
+<!-- mysql -->
+<g id="node7" class="node">
+<title>mysql</title>
+<ellipse fill="none" stroke="#000000" cx="352" cy="-18" rx="34.7903" ry="18"/>
+<text text-anchor="middle" x="352" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">mysql</text>
+</g>
+<!-- shipping&#45;&gt;mysql -->
+<g id="edge5" class="edge">
+<title>shipping&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M314.1036,-72.5708C320.1224,-63.9038 327.5144,-53.2592 334.1669,-43.6796"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="337.1787,-45.4788 340.0079,-35.2687 331.4291,-41.486 337.1787,-45.4788"/>
+</g>
+<!-- ratings -->
+<g id="node8" class="node">
+<title>ratings</title>
+<ellipse fill="none" stroke="#000000" cx="402" cy="-90" rx="37.1367" ry="18"/>
+<text text-anchor="middle" x="402" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">ratings</text>
+</g>
+<!-- ratings&#45;&gt;mysql -->
+<g id="edge6" class="edge">
+<title>ratings&#45;&gt;mysql</title>
+<path fill="none" stroke="#0000ff" d="M389.8964,-72.5708C383.8776,-63.9038 376.4856,-53.2592 369.8331,-43.6796"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="372.5709,-41.486 363.9921,-35.2687 366.8213,-45.4788 372.5709,-41.486"/>
+</g>
+<!-- payment -->
+<g id="node9" class="node">
+<title>payment</title>
+<ellipse fill="none" stroke="#000000" cx="502" cy="-90" rx="44.0833" ry="18"/>
+<text text-anchor="middle" x="502" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">payment</text>
+</g>
+<!-- rabbitmq -->
+<g id="node10" class="node">
+<title>rabbitmq</title>
+<ellipse fill="none" stroke="#000000" cx="555" cy="-18" rx="45.806" ry="18"/>
+<text text-anchor="middle" x="555" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">rabbitmq</text>
+</g>
+<!-- payment&#45;&gt;rabbitmq -->
+<g id="edge7" class="edge">
+<title>payment&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M514.8298,-72.5708C521.2274,-63.8797 529.0888,-53.2001 536.1557,-43.5998"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="538.9951,-45.6465 542.1046,-35.5182 533.3577,-41.4968 538.9951,-45.6465"/>
+</g>
+<!-- dispatch -->
+<g id="node11" class="node">
+<title>dispatch</title>
+<ellipse fill="none" stroke="#000000" cx="608" cy="-90" rx="43.4377" ry="18"/>
+<text text-anchor="middle" x="608" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">dispatch</text>
+</g>
+<!-- dispatch&#45;&gt;rabbitmq -->
+<g id="edge8" class="edge">
+<title>dispatch&#45;&gt;rabbitmq</title>
+<path fill="none" stroke="#0000ff" d="M595.1702,-72.5708C588.7726,-63.8797 580.9112,-53.2001 573.8443,-43.5998"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="576.6423,-41.4968 567.8954,-35.5182 571.0049,-45.6465 576.6423,-41.4968"/>
+</g>
+<!-- web -->
+<g id="node12" class="node">
+<title>web</title>
+<ellipse fill="none" stroke="#000000" cx="247" cy="-162" rx="27.2467" ry="18"/>
+<text text-anchor="middle" x="247" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">web</text>
+</g>
+<!-- web&#45;&gt;catalogue -->
+<g id="edge12" class="edge">
+<title>web&#45;&gt;catalogue</title>
+<path fill="none" stroke="#0000ff" d="M234.5196,-145.6621C227.7352,-136.7806 219.1913,-125.5959 211.5452,-115.5864"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="214.2437,-113.3533 205.3919,-107.5312 208.681,-117.6026 214.2437,-113.3533"/>
+</g>
+<!-- web&#45;&gt;user -->
+<g id="edge11" class="edge">
+<title>web&#45;&gt;user</title>
+<path fill="none" stroke="#0000ff" d="M224.6416,-151.3364C202.0018,-140.5113 166.0024,-123.2234 135,-108 133.2594,-107.1453 131.4732,-106.2644 129.6717,-105.373"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="131.1896,-102.219 120.6769,-100.9015 128.0735,-108.4872 131.1896,-102.219"/>
+</g>
+<!-- web&#45;&gt;shipping -->
+<g id="edge9" class="edge">
+<title>web&#45;&gt;shipping</title>
+<path fill="none" stroke="#0000ff" d="M259.4804,-145.6621C266.3144,-136.7157 274.9335,-125.4325 282.6221,-115.3674"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="285.513,-117.3487 288.8021,-107.2773 279.9503,-113.0993 285.513,-117.3487"/>
+</g>
+<!-- web&#45;&gt;payment -->
+<g id="edge10" class="edge">
+<title>web&#45;&gt;payment</title>
+<path fill="none" stroke="#0000ff" d="M272.5204,-155.6606C310.8238,-146.0295 385.3693,-126.8335 448,-108 451.3669,-106.9875 454.841,-105.9088 458.3274,-104.8018"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="459.6692,-108.0465 468.1068,-101.6388 457.5149,-101.3862 459.6692,-108.0465"/>
+</g>
+</g>
+</svg>
