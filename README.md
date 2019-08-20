@@ -2,7 +2,7 @@
 Microservice Dependency Graph Dataset
 
 
-| Project Name                             | GIthub URL            | Number of microservices | Dependency Graph |
+| Project Name                             | GIthub URL            | Number of microservices | Total Size (Lines of Code) | Dependency Graph |
 |------------------------------------------|-----------------------|-------------------------|------------------|
 | Microservice Architecture for blog post  | http://bit.ly/2OKY29v | 9                       |    <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ftgo-application-master.png" download="ftgo-application-master.svg">View</a>              |
 | E-Commerce App                           | http://bit.ly/2yLqTPW | 7                       |                  |
