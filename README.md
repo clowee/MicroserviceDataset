@@ -24,7 +24,7 @@ The dataset was built by analyzing the projects by SLOCcount and [MicroDepGraph]
 
 Please, cite as "The Microservice Dataset, Version 1.0 [1]"
 
-[1] Mohammad Imranur Rahman, Davide Taibi. The Microservice Dataset. Proceedings of the joint Summer School on Software Evolution and Software Quality and Bug Prediction with Machine Learning. CEUR-WS.  Tampere, 2019 
+[1] Mohammad Imranur Rahman, Sebastiano Panichella, Davide Taibi. The Microservice Dataset. Proceedings of the joint Summer School on Software Evolution and Software Quality and Bug Prediction with Machine Learning. CEUR-WS.  Tampere, 2019 
 ```
 @INPROCEEDINGS{Rahman2019,
   author = {Rahman, MI.and Taibi, Davide},
