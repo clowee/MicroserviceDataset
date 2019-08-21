@@ -25,7 +25,7 @@ Please, cite as "The Microservice Dataset, Version 1.0 [1]"
 @INPROCEEDINGS{Rahman2019,
   author = {Rahman, MI.and Taibi, Davide},
   title = {The Microservice Dependency Graph Dataset},
-  booktitle={Proceedings of the joint Summer School on Software Evolution and Software Quality and Bug Prediction with Machine Learning. CEUR-WS}, 
+  booktitle={Proceedings of the joint Summer School on Software Evolution, Software Quality and Bug Prediction with Machine Learning. CEUR-WS}, 
   year={2019}, 
   month={September},
   }
