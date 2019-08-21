@@ -1,7 +1,3 @@
-# Microservice Dataset
-Microservice Dependency Graph Dataset
-
-
 # The Microservice Dependency Graph Dataset
 
 This is the official repository of the "Microservice Dataset". 
