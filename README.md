@@ -61,7 +61,7 @@ The _Microservice Dependency Graph Dataset_ is licensed under a Creative Commons
  
 # List of project analyzed for Microservice Dataset
 
-| Project Name                             | Github URL            | Number of microservices | Total Size <br/>(Lines of Code) | 
+| Project Name                             | Github URL            | Number of microservices | Total Size <br/><sub>(Lines of Code)</sub> | 
 |------------------------------------------|-----------------------|:-----------------------:|:----------------:|
 | Microservice Architecture for blog post  | http://bit.ly/2OKY29v | 9                       |         1536     | 
 | E-Commerce App                           | http://bit.ly/2yLqTPW | 7                       |          967     | 
