@@ -4,6 +4,13 @@ This is the official repository of the "Microservice Dataset".
 
 The current release is 1.0 [download here](https://github.com/clowee/MicroserviceDataset/archive/1.0.zip)
 
+The dataset contains the dependency analysis of a set of microservices-based projects. 
+For each project, the directlry "MicroDepGraphDataset" contains as GraphML file with all the dependencies, and a svg files graphically representing it.
+
+Please note that all the services are represented in the svg files with the same symbols. Databases, message buses, and all the other services are represented with an oval shape. 
+The figure below shows an example of graphical representation of the dependencies in one project (ftgo)
+
+![FTGO example (svg)](https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ftgo-application-master.png)
 
 
 ## Table of contents
@@ -55,24 +62,24 @@ The _Microservice Dependency Graph Dataset_ is licensed under a Creative Commons
 # List of project analyzed for Microservice Dataset
 
 | Project Name                             | GIthub URL            | Number of microservices | Total Size (Lines of Code) | Dependency Graph |
-|------------------------------------------|-----------------------|-------------------------|------------------|----------|
-| Microservice Architecture for blog post  | http://bit.ly/2OKY29v | 9                       |         1536     |  <a href="https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ftgo-application-master.png" download="ftgo-application-master.svg">View</a>  |
-| E-Commerce App                           | http://bit.ly/2yLqTPW | 7                       |          967     | |
-| Consul demo                              | http://bit.ly/2KsGzx6 | 5                       |         2343     | |
-| EnterprisePlanner                        | http://bit.ly/2ZPK7je | 5                       |         4264     | |
-| eShopOnContainers                        | http://bit.ly/2YGSkJB | 25                      |        69874     | |
-| FTGO - Restaurant Management             | http://bit.ly/2M7f8fm | 13                      |         9366     | |
-| Lakeside Mutual Insurance Company        | http://bit.ly/33iJSiU | 8                       |        19363     | |
-| Microservices book                       | http://bit.ly/2TeSbI2 | 6                       |         2417     | |
-| spring-cloud-netflix-example             | http://bit.ly/2YOUJxJ | 9                       |          419     | |
-| Pitstop - Garage Management System       | http://bit.ly/2Td7NLY | 13                      |        34625     | |
-| Robot Shop                               | http://bit.ly/2ZFbHQm | 12                      |         2523     | |
-| Share bike (Chinese)                     | http://bit.ly/2YMJgmb | 9                       |          302     | |
-| Spring Cloud Microservice Example        | http://bit.ly/2GS2ywt | 10                      |         2333     | |
-| Spring PetClinic                         | http://bit.ly/2YMVbAC | 8                       |         2475     | |
-| Tap-And-Eat (Spring Cloud)               | http://bit.ly/2yIjXmC | 5                       |         1418     | |
-| Vehicle tracking                         | http://bit.ly/31i5aLM | 8                       |         5462     | |
-| Lelylan - Open Source Internet of Things | http://bit.ly/2TdDfd3 | 14                      |         7763     | |
-| Spinnaker                                | http://bit.ly/2YQA2S7 | 10                      |        33822     | |
-| Open-loyalty                             | http://bit.ly/2ZApXtA | 5                       |        16641     | |
-| CQRS microservice application            | http://bit.ly/2YtbtiF | 7                       |         1632     | |
+|------------------------------------------|-----------------------|-------------------------|------------------|
+| Microservice Architecture for blog post  | http://bit.ly/2OKY29v | 9                       |         1536     |    
+| E-Commerce App                           | http://bit.ly/2yLqTPW | 7                       |          967     | 
+| Consul demo                              | http://bit.ly/2KsGzx6 | 5                       |         2343     | 
+| EnterprisePlanner                        | http://bit.ly/2ZPK7je | 5                       |         4264     | 
+| eShopOnContainers                        | http://bit.ly/2YGSkJB | 25                      |        69874     | 
+| FTGO - Restaurant Management             | http://bit.ly/2M7f8fm | 13                      |         9366     | 
+| Lakeside Mutual Insurance Company        | http://bit.ly/33iJSiU | 8                       |        19363     | 
+| Microservices book                       | http://bit.ly/2TeSbI2 | 6                       |         2417     |
+| spring-cloud-netflix-example             | http://bit.ly/2YOUJxJ | 9                       |          419     | 
+| Pitstop - Garage Management System       | http://bit.ly/2Td7NLY | 13                      |        34625     | 
+| Robot Shop                               | http://bit.ly/2ZFbHQm | 12                      |         2523     | 
+| Share bike (Chinese)                     | http://bit.ly/2YMJgmb | 9                       |          302     | 
+| Spring Cloud Microservice Example        | http://bit.ly/2GS2ywt | 10                      |         2333     | 
+| Spring PetClinic                         | http://bit.ly/2YMVbAC | 8                       |         2475     | 
+| Tap-And-Eat (Spring Cloud)               | http://bit.ly/2yIjXmC | 5                       |         1418     | 
+| Vehicle tracking                         | http://bit.ly/31i5aLM | 8                       |         5462     | 
+| Lelylan - Open Source Internet of Things | http://bit.ly/2TdDfd3 | 14                      |         7763     | 
+| Spinnaker                                | http://bit.ly/2YQA2S7 | 10                      |        33822     | 
+| Open-loyalty                             | http://bit.ly/2ZApXtA | 5                       |        16641     | 
+| CQRS microservice application            | http://bit.ly/2YtbtiF | 7                       |         1632     | 
