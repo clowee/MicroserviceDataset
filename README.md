@@ -16,18 +16,23 @@ The current release is 1.0 [download here](https://github.com/clowee/Microservic
 Microservice Dependency Graph Dataset is a curated dataset containing dependency graph of 20 microservice projects. It includes the GraphML file and also the SVG file of the dependency graph.
 
 The dataset was built by analyzing the projects by SLOCcount and [MicroDepGraph](https://github.com/clowee/MicroDepGraph). To generateGraphML file we used Apache TinkerPop graph computing framework. TheGraphML  file  is  easy  to  use  xml  based  file  where  we  can  specify  directed  or undirected graphs and different attributes to the graph. Moreover we can import the GraphML file in different graph visualization platforms like Gephi. In this kind of graph visualization tools we can then apply different graph algorithms  for further analyzing the graph. We also get SVG image as output so that it can be easily used for further processing.
+
+A complete description of the dataset is available [here](https://arxiv.org/pdf/1909.03249.pdf).
+
 ## How to cite 
 
 Please, cite as "The Microservice Dataset, Version 1.0 [1]"
 
-[1] Mohammad Imranur Rahman, Sebastiano Panichella, Davide Taibi. The Microservice Dataset. Proceedings of the joint Summer School on Software Evolution and Software Quality and Bug Prediction with Machine Learning. CEUR-WS.  Tampere, 2019 
+[1] Mohammad Imranur Rahman, Sebastiano Panichella, Davide Taibi. A curated Dataset of Microservices-Based Systems. Joint Proceedings of the Summer School on Software Maintenance and Evolution. Tampere, 2019 
 ```
 @INPROCEEDINGS{Rahman2019,
   author = {Rahman, MI.and Taibi, Davide},
-  title = {The Microservice Dependency Graph Dataset},
-  booktitle={Proceedings of the joint Summer School on Software Evolution, Software Quality and Bug Prediction with Machine Learning. CEUR-WS}, 
+  title = {A curated Dataset of Microservices-Based Systems},
+  booktitle={Joint Proceedings of the Summer School on Software Maintenance and Evolution}, 
   year={2019}, 
   month={September},
+  publisher    = {CEUR-WS}
+  location = {Tampere, Finland}
   }
 ```
 
