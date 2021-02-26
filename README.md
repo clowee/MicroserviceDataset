@@ -1,4 +1,4 @@
-# The Microservice Dependency Graph Dataset
+# A curated Dataset of Microservices-Based Systems
 
 This is the official repository of the "Microservice Dataset". 
 
@@ -15,7 +15,7 @@ The figure below shows an example of graphical representation of the dependencie
 
 ## Table of contents
 * **[What is it](#What-is-it)**
-* **[How to cite the Microservice Dependency Graph Dataset](#how-to-cite)**
+* **[How to cite ](#how-to-cite)**
 * **[How to contribute](#how-to-contribute)**
 
 ## What is it
