@@ -12,6 +12,7 @@ The figure below shows an example of graphical representation of the dependencie
 
 ![FTGO example (svg)](https://github.com/clowee/MicroDepGraph/raw/master/resultGraphs/ftgo-application-master.png)
 
+If you are interested to a more extended list of Microservices-based projects, please check our [Curated List Of Open Source Microservices-based projects]( https://github.com/davidetaibi/Microservices_Project_List/blob/master/README.md#How-To-Reference-this-Dataset)
 
 ## Table of contents
 * **[What is it](#What-is-it)**
